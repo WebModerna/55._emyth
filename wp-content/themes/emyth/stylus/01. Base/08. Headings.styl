@@ -1,0 +1,35 @@
+// Títulos en encabezadores
+h1, h2, h3, h4, h5, h6
+.h1, .h2, .h3, .h4, .h5, .h6
+	font-family $baseHeadingFont
+	margin 0
+	padding 0
+	font-weight bolder
+	a
+		text-decoration none
+hr
+	border 1px solid $blanco
+	height 0
+	margin 1.5em 0
+
+.h1, .h2
+	font-size 1em
+
+.header
+	background $negro url("../img/body-background.jpg") fixed
+	margin 0
+	text-align left
+
+.heading
+	margin 0
+	padding 1%
+	text-align center
+
+@media all and (min-width: 720px)
+	.heading
+		*
+			font-size 1.5em
+
+@media only screen and (min-width: 900px)
+	.header
+		padding 0.25em 0.5em

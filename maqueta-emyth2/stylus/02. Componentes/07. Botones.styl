@@ -1,0 +1,97 @@
+// Botones
+
+button
+input[type="submit"]
+input[type="reset"]
+.boton
+.comment-reply-link
+.cancel-comment-reply a
+	background transparent
+	*border 0
+	border 1px solid $gris
+	border-radius 0.25em
+	color $blanco_puro
+	cursor pointer
+	*display inline
+	display inline-block
+	*line-height 1.5em
+	line-height 1.5em
+	*margin-right 0.3em
+	margin-right 0.3em
+	min-width 9em
+	apareance none
+	overflow hidden
+	padding 0.6em 1.5em
+	text-align center
+	text-overflow ellipsis
+	transition all 0.1s ease-in-out
+	white-space nowrap
+	&:hover
+		background $blanco
+		border-color $color_8
+		color $negro_suave
+	&:focus
+		border-color $color_1
+		outline none
+	&:active
+		background $google
+		border-color $google
+	&.small
+		font-size 0.8em
+		padding 0.3em 1em
+
+[class^="boton-"], [class*=" boton-"]
+	color $blanco_puro
+	&:hover
+	&:focus
+		color $blanco_puro
+	&:active
+		background $google
+		border-color $google
+
+.boton
+	&-azul
+		background $color_9
+		&:hover
+		&:focus
+			background $color_8
+
+	&-normal
+		background $gris
+		&:hover
+		&:focus
+			background $silver
+
+	&-negro
+		background $negro
+		&:hover
+		&:focus
+			background $gris_fuerte
+	&-rojo
+		background $color_5
+		&:hover
+		&:focus
+			background $ladrillo
+
+// Comentarios
+.boton.small
+.comment-reply-link
+.cancel-comment-reply a
+	border-color $gris
+	background $gris
+	font-size 0.8em
+	padding 0.3em 1em
+	min-width auto
+	&:hover
+	&:focus
+		background $silver
+		border-color $silver
+		color $blanco_puro
+	&:active
+		background $color_5
+		color $blanco_puro
+		transform scale(0.9)
+
+// Botón activado y actual
+[class^="actual"], [class*=" actual"]
+	background $gris_fuerte

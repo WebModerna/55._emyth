@@ -1,0 +1,45 @@
+// Menú de Navegación
+
+.navegacion
+.menu
+	ul
+	&--listado
+		list-style none
+		margin 0
+		padding 0
+		transition_comun()
+		width 100%
+		li
+			position relative
+			a
+				color $gris
+				display block
+				font-family $baseHeadingFont
+				font-size 0.9em
+				padding 0.5em 1em
+				position relative
+				text-decoration none
+				transition_comun()
+				&:hover
+				&:focus
+					background $gris_fuerte
+		li + li
+			border-top 1px solid $gris
+
+		&-abrir
+			max-height 30em
+			visibility visible
+
+		&-cerrar
+			max-height 0
+			visibility hidden
+	ul
+	&--listado
+		.current_menu_item
+		.current_page_item
+			a
+				background $gris_fuerte
+				color $nube
+
+
+

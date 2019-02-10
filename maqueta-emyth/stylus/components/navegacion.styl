@@ -1,0 +1,195 @@
+// Formato de la barra de navegación principal
+.nav
+.menu
+	box-sizing border-box
+	position relative
+	z-index 200
+	ul
+		background $black
+		display block
+		font-family $baseHeadingFontFamily
+		top 0
+		left -500px
+		margin 0
+		opacity 0
+		position absolute
+		padding 0
+		transition all 0.4s ease-in-out
+		transition all 0.6s cubic-bezier(0.5, -0.5, 0.5, 1.5)
+		// transition all 0.3s	cubic-bezier(0.215, 0.610, 0.355, 1.000)
+		visibility hidden
+		width 100%
+
+		li
+			display block
+			list-style none
+			position relative
+			a // Los enlaces
+				display block
+				color $white
+				padding 1em
+				position relative
+				text-decoration none
+				text-shadow_lindo()
+				transition_comun()
+				z-index 3
+				&:after // El símbolo al final
+					// content "-›"
+					display inline-block
+					float right
+					transition_comun()
+				&:before
+					background $white
+					content ""
+					height 100%
+					right 0
+					opacity 0.5
+					position absolute
+					top 0
+					transition_comun()
+					width 0
+					z-index -1
+
+				// Estilos al hover y al focus
+				&:hover
+				&:focus
+					background $ladrillo
+					&:before
+						width 10%
+
+		// Estilo solo al border superior exepto al primer item del menú
+		li + li
+			border-top 1px solid $gray
+			border-top 1px solid rgba($black_puro, 0.25)
+			box-shadow 0px 1px 0px 0px rgba($white, 0.075) inset
+
+// Estilos cuando está abierto o cerrado el menú de navegación
+.nav
+.menu
+	.nav--listado-abrir
+		// height auto
+		top 0
+		left 0
+		opacity 1
+		visibility visible
+	.nav--listado-cerrar
+		// height 0
+		left -500px
+		opacity 0
+		visibility hidden
+
+// Estilos cuando el item está siendo visitado actualmente
+.nav
+.menu
+	ul
+		.current_menu_item
+		.current_page_item
+			a
+				color $Celeste
+				cursor initial
+				&:after
+					transform rotate(90deg)
+				&:before
+					display none
+
+// Es para navegar de un post al siguiente y viceversa
+.enlaces__navegacion
+	display block
+	margin 1em auto
+	padding 0
+	div
+		border 1px solid $silver
+		display block
+		padding 0
+		margin 0
+		vertical-align middle
+		text-align center
+		a
+			color $Celeste
+			display block
+			font-family $baseHeadingFontFamily
+			height 100%
+			margin 0
+			padding 0.5em 1em
+			text-decoration none
+			&:hover
+			&:focus
+				color $ladrillo
+		&:hover
+		&:focus
+			background $nube
+
+	div + div
+		border-top none
+
+	.prev
+		a
+			&:before
+				content "← "
+	.next
+		a
+			&:after
+				content " →"
+
+
+// Cuando se agranda la pantalla
+@media all and (min-width:30em)
+	.enlaces__navegacion
+		overflow hidden
+		div
+			display inline-block
+			float left
+			width 50%
+
+		div + div
+			border-left none
+			border-top 1px solid $silver
+
+		.next
+			text-align right
+		.prev
+			text-align left
+
+
+
+
+@media all and (min-width:56.8em)
+	.nav
+	.menu
+		display inline-block
+		float right
+		ul
+			background none
+			margin-top 0.6em
+			opacity 1
+			overflow hidden
+			position relative
+			top auto
+			left 0
+			vertical-align middle
+			visibility visible
+			li
+				display inline-block
+				float left
+				a
+					color $concreto
+					text-shadow none
+					&:after // Eliminamos símbolo al final
+						display none
+					&:before
+						bottom 0
+						height 0
+						top auto
+						width 100%
+					&:hover
+					&:focus
+						color $white
+						text-shadow_lindo()
+						&:before
+							// box-shadow_lindo()
+							height 100%
+
+			// Eliminamos el estilo solo al border superior exepto al primer item del menú
+			li + li
+				border-top none
+				box-shadow none

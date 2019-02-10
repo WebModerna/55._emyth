@@ -1,0 +1,200 @@
+// Imágenes en general y de wordpress
+figure
+	margin 0
+	text-align center
+
+img
+	height auto
+	max-width 100%
+	vertical-align top
+	width 100%
+
+// Alineaciones de las cajas y las imágenes
+.aligncenter
+	display block
+	margin 0.5em auto
+	text-align center
+.alignleft, .alignright
+	display inline
+	*display inline /*Target IE7 and bellow*/
+	_display inline /*Target IE6 and bellow*/
+.alignleft
+	float left
+	margin-bottom 0.1em
+	margin-right 1em
+	margin-top 0.6em
+.alignnone
+	display block
+	margin 1em 0
+.alignright
+	float right
+	margin-bottom 0.1em
+	margin-left 1em
+	margin-top 0.6em
+@media all and (max-width: 320px)
+	.size-medium
+		.alignright
+			margin-left 0
+		.alignleft
+			margin-right 0
+
+
+// Clases de contenedores de imágenes en wordpress
+.wp-caption
+	padding 0
+	text-align center
+	a
+		display block
+		position relative
+		overflow hidden
+		&:before
+			content ""
+			display block
+			height 100%
+			position absolute
+			transition all 0.1s ease-in-out
+			width 100%
+		&:hover
+		&:focus
+			&:before
+				background rgba($negro_puro, 0.5)
+			&:after
+				content "\e9cb"
+				font-family $iconFont
+				font-size 40px
+				position absolute
+				display table-cell
+				line-height 1
+				vertical-align middle
+				text-align center
+				bottom 0
+				left 0
+				height calc(50% + 20px)
+				height -o-calc(50% + 20px)
+				height -ms-calc(50% + 20px)
+				height -moz-calc(50% + 20px)
+				height -webkit-calc(50% + 20px)
+				width 100%
+	&.aligncenter
+	&.alignnone
+		display block
+
+	&-text
+		background $nube
+		color $silver
+		font-style italic
+		font-size 0.9em
+		margin 0
+		padding 2% 1%
+
+// Tamaños de las imágenes por defecto en las insertadas
+.size-thumbnail
+	width 150px
+.size-medium
+	max-width 300px
+.size-large
+.size-full
+	height auto
+.size-large
+	max-width 800px
+.size-full
+	max-width 100%
+
+
+// Imágenes fluidas para los posts, comentarios y widgets
+.comment-author
+	img
+		width 32px
+
+.entry-content
+.comment-content
+.widget
+	img
+		max-width 100%
+
+.entry-content
+	img.wp-smiley
+		border none
+		margin-bottom 0
+		margin-top 0
+		padding 0
+
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@ Tamaños "thumbnail" 150px x 150px
+
+================================ Alineaciones en wordpress
+1. Centrada:
+<div class="wp-caption aligncenter" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+2. Izquierda
+<div class="wp-caption alignleft" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+3. Derecha
+<div class="wp-caption alignright" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+4. Ninguna
+<div class="wp-caption alignnone" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+================================== Con adjuntos
+1. Centrada:
+<div class="wp-caption aligncenter" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+2. Izquierda
+<div class="wp-caption alignleft" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+3. Derecha
+<div class="wp-caption alignright" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+4. Ninguna
+<div class="wp-caption alignnone" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@ Tamaños "medium" 350px de ancho
+idem pero con el style="width: 360px"
+Siempre 10px más.
+
+*/
+
+
+
+/*
+Tamaños de las imágenes
+Full: total
+Large: 1600px de ancho y se ve como de 800px
+Middle: 800px de ancho y se ve como de 350px
+Small: 300px de ancho/alto y se como de 150px
+Hay otras imágenes para propósitos especiales pero no vienen a la cuestión acá.
+*/

@@ -1,0 +1,36 @@
+/**
+ * # Base
+ *
+ * Otros estilos base
+ */
+
+$fontSize ?= 16
+
+a
+	color $Celeste
+	text-decoration none
+	&:hover
+	&:focus
+		color $ladrillo
+		text-decoration underline
+
+
+*
+:before
+:after
+	box-sizing inherit
+	text-rendering optimizelegibility
+
+
+html
+	box-sizing border-box
+	color $fontColor
+	font-family $baseFont
+	font-size unit($fontSize / 16, 'em')
+
+
+[class^="icon-"], [class*=" icon-"]
+	&.left
+		margin-left 1em
+	&.right
+		margin-right 1em

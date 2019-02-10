@@ -5,15 +5,27 @@ wp-content/backup-db/
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
+wp-content/languages
 wp-content/upgrade/
-wp-content/uploads/
 wp-content/mu-plugins/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+wp-content/themes/emyth/stylus/node_modules
+maqueta-emyth3/stylus/node_modules
+maqueta-emyth2/stylus/node_modules
+maqueta-emyth*/
+node_modules
 
 /.htaccess
 /license.txt
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+
+wp-admin
+wp-includes
+xmlrpc.php
+*.txt
+*.zip
+*.rar
 

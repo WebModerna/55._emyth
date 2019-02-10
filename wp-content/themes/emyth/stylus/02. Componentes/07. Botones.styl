@@ -1,0 +1,162 @@
+// Botones
+button
+input[type="submit"]
+input[type="reset"]
+.boton
+.comment-reply-link
+.cancel-comment-reply a
+	apareance none
+	background $color_9
+	// *border 0
+	// border 1px solid $gris
+	border 1px solid transparent
+	border-radius 0.25em
+	box-shadow(2px 2px 4px $negro_puro)
+	color $blanco_puro
+	// cursor pointer
+	*display inline
+	display inline-block
+	font-family $baseHeadingFont
+	// *line-height 1.5em
+	line-height 1.5em
+	// *margin-right 0.3em
+	margin-right 0.3em
+	min-width 7em
+	overflow hidden
+	padding 0.6em 1.5em
+	text-align center
+	text-decoration none
+	text-overflow ellipsis
+	// transition all 0.1s ease-in-out
+	// white-space nowrap
+	&:hover
+		// background $blanco
+		background $color_8
+		// border-color $color_8
+		color $blanco_puro
+	&:focus
+		border-color $color_1
+		box-shadow 0px 0px 10px 2px $color_1
+		outline none
+	&:active
+		background $google
+		// border-color $google
+		color $blanco_puro
+	&:visited
+		color $blanco_puro
+
+button.small
+input[type="submit"].small
+input[type="reset"].small
+.boton.small.small
+.comment-reply-link.small
+.cancel-comment-reply.small
+		font-size 0.8em
+		padding 0.3em 1em
+
+button + button
+input[type="submit"] + input[type="submit"]
+input[type="reset"] + input[type="reset"]
+.boton + .boton
+.comment-reply-link + .comment-reply-link
+.cancel-comment-reply a + .cancel-comment-reply a
+	margin-left 2px
+
+
+
+[class^="boton-"], [class*=" boton-"]
+	color $blanco_puro
+	&:hover
+	&:focus
+		color $blanco_puro
+	&:active
+		background $google
+		// border-color $google
+	&::first-letter
+		text-transform uppercase
+
+.boton
+	&-azul
+		background $color_9
+		&:hover
+		&:focus
+			background $color_8
+
+	&-normal
+		background $gris
+		&:hover
+		&:focus
+			background $silver
+
+	&-negro
+		background $negro
+		&:hover
+		&:focus
+			background $gris_fuerte
+	&-rojo
+		background $color_5
+		&:hover
+		&:focus
+			background $ladrillo
+
+.boton-naranja
+.cancel-comment-reply a
+	background $naranja_fuerte
+	&:hover
+	&:focus
+		background $naranja_medio
+
+
+// Comentarios
+.boton.small
+.comment-reply-link
+.cancel-comment-reply a
+	font-size 0.8em
+	min-width auto !important
+	padding 0.3em 1em
+
+	&:active
+		transform scale(0.9)
+
+// Botón activado y actual
+[class^="actual"], [class*=" actual"]
+	background $gris_fuerte
+
+// Botones particulares
+.botones_check
+	apareance none
+	*border 0
+	background $silver
+	font-size 0.8em
+	padding 0.3em 1em
+	// border 1px solid $silver_claro
+	border-radius 0.25em
+	color $blanco
+	cursor pointer
+	*display inline
+	display inline-block
+	font-family $baseHeadingFont
+	*line-height 1.5em
+	line-height 1.5em
+	*margin-right 0.3em
+	margin-right 0.3em
+	overflow hidden
+	text-align center
+	text-decoration none
+	text-overflow ellipsis
+	transition all 0.1s ease-in-out
+	[class^="icono-"], [class*=" icono-"]
+		display none
+
+input.botones_check
+	display none
+
+.botones_check + .botones_check:focus
+.botones_check + .botones_check:active
+	transform scale(0.9)
+
+.botones_check:checked + .botones_check
+	background $esmeralda
+	color $blanco_puro
+	[class^="icono-"], [class*=" icono-"]
+		display inline

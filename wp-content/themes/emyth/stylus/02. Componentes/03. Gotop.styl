@@ -1,0 +1,32 @@
+//Go to top
+.gotop
+	bottom 2.8em
+	display inline-block
+	filter unquote("alpha(opacity=50)")
+	position fixed
+	right 0.1em
+	triangle(1.5em, 1.5em, "top", $esmeralda)
+	triangle(1.5em, 1.5em, 'top', rgba($esmeralda, 0.5))
+	z-index 99
+
+	&:hover
+	&:focus
+		filter none
+		triangle(1.5em, 1.5em, "top", $esmeralda)
+
+	&-mostrar
+		bottom 2.8em
+
+	&-ocultar
+		bottom -3em
+
+@media only screen and ( min-width: 740px )
+	.gotop
+		right 1em
+
+		&-mostrar
+			bottom 1em
+
+@media only print
+	.gotop
+		display none

@@ -1,0 +1,44 @@
+// Sidebar
+.sidebar
+	min-width 250px
+	padding-bottom 1em
+
+.widget
+	&--box + &--box
+		margin 1em 0
+	&--box
+		&--content
+			figure
+				border 1px solid $blanco
+				border-radius 0.25em
+				margin 0
+				padding 5px
+				// text-align center
+				figcaption
+					background $blanco
+					color $gris_fuerte
+					font-style italic
+					padding 2%
+				img
+					display block
+					width 100%
+		&--title
+			*
+				border-bottom 4px solid $color_8
+		&--listado
+			list-style none
+			margin-left 0
+			padding-left 0
+			li
+				a
+					display inline-block
+					padding-bottom 0.3em
+					padding-top 0.3em
+			li + li
+				border-top 1px dotted $silver
+
+@media all and (min-width: 720px)
+	.sidebar
+		display table-cell
+		vertical-align top
+		width 25%

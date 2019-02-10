@@ -1,0 +1,56 @@
+// Team
+.team
+	padding 0.2em
+	&--descripcion
+		// display block
+		font-size 0.9em
+		padding-left 0.5em
+		vertical-align top
+
+	&--header
+		margin-top 1em
+
+	&--item
+		&--foto
+			// display table-cell
+			margin-top 0
+			max-width 310px
+			img
+				border 1px solid $silver
+				border-radius 3px
+				max-width 300px
+				min-width 200px
+				padding 4px
+				width 100%
+
+		&--contacto
+			margin-bottom 1em
+			color $silver
+
+		&--titulo
+			border-bottom 3px solid rgba($color_8, 0.4)
+			color $color_8
+			display inline-block
+			padding 0 0 0.5em 0
+			margin-top 0.5em
+			margin-bottom 0
+			position relative
+			*
+				margin 0
+				padding 0
+
+	.team--item + .team--item
+		border-top 1px dotted $silver_claro
+		margin-top 1em
+		padding-top 1.5em
+
+@media all and (min-width: 480px)
+	.team
+		&--item
+			&--titulo
+				margin-top 0
+				width calc( 100% - 320px )
+				width -o-calc( 100% - 320px )
+				width -ms-calc( 100% - 320px )
+				width -moz-calc( 100% - 320px )
+				width -webkit-calc( 100% - 320px )

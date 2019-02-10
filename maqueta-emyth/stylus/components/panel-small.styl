@@ -1,0 +1,66 @@
+/**
+ * # Panel Small
+ 
+	<div class="Panel-small">
+		<figure>
+			<a href=""><img src="img/logo.png" alt="algo" /></a>
+		</figure>
+		<div class="Panel-small--contenido">
+			<h3><a href="">Las vacas vuelan y hacen ganar plata</a></h3>
+			<span class="icon-calendar right"></span>21/23/2028
+		</div>
+	</div>
+*/
+$panel-background-color2 ?= $white
+$panel-border-color2 ?= $gray
+$panel-border-width2 ?= 1px
+
+// .Panel--contenedor
+// 	column-count(2)
+
+.Panel-small
+	color $gris_fuerte
+	margin 1em auto 0 auto
+	overflow hidden
+	padding 0.5em 0
+	position relative
+		
+	figure
+		float left
+		margin 0 1em 0 0
+		a
+			border-radius 0.2em
+			border 1px solid $silver
+			background $white
+			display inline-block
+			overflow hidden
+			text-decoration none
+			img
+				border 2px solid $white
+				display block
+				width 70px
+			&:hover
+			&:focus
+				border-color $google
+					
+	& > h2
+	& > h3
+	& > h4
+	& > h5
+	& > h6
+		margin 0 0 0.5em 0
+		padding 0
+		a
+			color $Celeste
+			text-decoration none
+			&:hover
+			&:focus
+				color $NaranjaLadrillo
+				text-decoration underline
+				
+	& > [class^="icon-"], [class*=" icon-"]
+		color $Celeste
+			
+.Panel-small + .Panel-small
+	border-top $panel-border-width2 solid $panel-border-color2
+	margin-top -0.2em

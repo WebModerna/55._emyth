@@ -1,0 +1,33 @@
+// Contenido
+.contenido
+	&--item
+		&-single
+			&--content > p:first-child:first-letter
+				color $color_5
+				font-family $baseHeadingFont
+				font-size 3em
+				margin-right 0.1em
+
+@media all and (min-width: 768px)
+	.contenido
+		display inline-block
+		display table-cell
+		vertical-align top
+
+@media all and (min-width: 960px)
+	.display-flex
+		display flex
+		justify-content space-between
+		flex-flow row wrap
+	.no-flexbox
+		// Este es un parche para IE10 & IE11
+		display inline-block !important
+
+	.contenido
+		&--item
+			display inline-block
+			vertical-align top
+			width 49.5%
+		&--item-single
+			display inline-block
+			vertical-align top

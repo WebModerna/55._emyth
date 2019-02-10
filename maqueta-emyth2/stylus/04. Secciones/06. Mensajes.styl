@@ -1,0 +1,39 @@
+// Mensajes
+.mensajes
+		display table
+		height 100vh
+		position relative
+		width 100%
+		article
+			background-color rgba($negro, 0.3)
+			display table-cell
+			padding 2em auto
+			vertical-align middle
+			width 100%
+		.heading
+			color $blanco
+			*
+				margin 0
+				padding 0
+.mensaje
+	&_1
+	&_2
+		background url('../img/imagen.jpg') center center no-repeat
+		background-size( cover )
+
+// Para los dispositivos con retina display
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 1.5),
+	only screen and (-ms-min-device-pixel-ratio: 1.5),
+	only screen and (-o-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 240dpi)
+	.mensaje
+		&_1
+		&_2
+			background-image url('../img/imagen@2x.jpg')
+
+@media print
+	.mensaje
+		border-top 1px solid $gris !important
+		border-bottom 1px solid $gris !important

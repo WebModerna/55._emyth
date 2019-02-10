@@ -1,0 +1,335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tou",
+				"touch-enabled"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"res",
+				"resize"
+			],
+			[
+				"he",
+				"innerHeight"
+			],
+			[
+				"alt",
+				"altura_actual"
+			],
+			[
+				"outer",
+				"outerHeight"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"meta",
+				"meta_keywords2"
+			],
+			[
+				"des",
+				"descripcion_web"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"unse",
+				"unset"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/F/wamp/www/43._webmoderna/webmoderna-maqueta/index.html",
+			"settings":
+			{
+				"buffer_size": 22773,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/wamp/www/43._webmoderna/webmoderna-maqueta/mejoras.php",
+		"/F/wamp/www/43._webmoderna/webmoderna-maqueta/wireframes/disco.html",
+		"/F/wamp/www/47._casaflor/datos/datos.txt",
+		"/F/wamp/www/wordpress/wp-content/themes/ecobiz/functions.php",
+		"/F/wamp/www/wordpress/wp-content/themes/ecobiz/admin/theme-options.php",
+		"/F/wamp/www/wordpress/wp-content/themes/ecobiz/admin/admin-interface.php",
+		"/F/wamp/www/43._webmoderna/wp-content/themes/webmoderna/functions.php",
+		"/F/wamp/www/50._hosteriaarture/datos/Datos.txt",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/stylus/estructura.styl",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/js/scripts.js",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/fotos.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/header.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/style.css",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/index.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/footer.php",
+		"/F/wamp/www/50._hosteriaarture/wp-config.php",
+		"/F/Mis Documentos/Mis archivos recibidos/jquery.fancybox-v3beta/jquery.fancybox.js",
+		"/F/Mis Documentos/Mis archivos recibidos/jquery.fancybox-v3beta/jquery.fancybox.css",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/stylus/components/navegacion.styl",
+		"/F/Mis Documentos/Mis archivos recibidos/jquery.fancybox-v3beta/jquery.fancybox-thumbs.js",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/js/scripts.js",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/.gitignore",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/footer.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/header.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/functions.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/tag.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/stylus/base/platzi.styl",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/single.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/options.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/functions.php",
+		"/F/wamp/www/57._platzi/wp-config.php",
+		"/F/wamp/www/57._platzi/.htaccess",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/category.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/index.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/style.css",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/page.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/enlaces.txt",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/stylus/style.styl",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/search.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/category.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/stylus/destacado.styl",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/stylus/style.min.styl",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/js/slideshow.js",
+		"/F/wamp/www/50._hosteriaarture/maqueta-hosteriaarture2/index.html",
+		"/F/wamp/www/50._hosteriaarture/maqueta-hosteriaarture2/stylus/destacado.styl",
+		"/F/wamp/www/50._hosteriaarture/maqueta-hosteriaarture2/js/scripts.js",
+		"/F/wamp/www/50._hosteriaarture/maqueta-hosteriaarture2/js/slideshow.js",
+		"/F/wamp/www/55._emyth/maqueta-emyth/slider.php",
+		"/F/wamp/www/55._emyth/maqueta-emyth/stylus/sections/slider.styl",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/functions.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/home.php",
+		"/F/wamp/www/50._hosteriaarture/maqueta-hosteriaarture/index.html",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/stylus/style.min.css",
+		"/F/wamp/www/54._losaltosdelsol/wp-content/themes/losaltosdelsol/functions.php",
+		"/F/wamp/www/50._hosteriaarture/wp-content/themes/hosteriaarture/options.php",
+		"/F/wamp/www/20._WebTranslation/wp-config.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/footer.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/header.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/includes/options-slider.php",
+		"/F/wamp/www/50._hosteriaarture/.htaccess",
+		"/F/wamp/www/47._casaflor/.htaccess",
+		"/F/Mis Documentos/Mis archivos recibidos/hosteraampapartarture.wordpress.2015-10-26.xml",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/single.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/css/style.css",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/page.php",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/blog.php",
+		"/F/wamp/www/55._emyth/wp-content/themes/emyth/functions.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/js/scripts.js",
+		"/F/wamp/www/55._emyth/wp-content/themes/emyth/index.php",
+		"/F/wamp/www/57._platzi/wp-content/themes/platzi/js/scripts.grande.js",
+		"/F/wamp/www/55._emyth/wp-content/themes/emyth/header.php",
+		"/F/wamp/www/55._emyth/wp-content/themes/emyth/footer.php",
+		"/F/wamp/www/57._platzi/wp-activate.php",
+		"/C/Users/EdgardRoul/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/EdgardRoul/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/EdgardRoul/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/wamp/www/43._webmoderna/webmoderna-maqueta/search.html",
+		"/F/wamp/www/20._WebTranslation/wp-includes/author-template.php",
+		"/F/wamp/www/63._elticotico/npm-debug.log",
+		"/F/wamp/www/20._WebTranslation/wp-content/themes/webtranslations/style.css",
+		"/C/Users/EdgardRoul/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/EdgardRoul/AppData/Roaming/Sublime Text 2/Packages/Browser Refresh/Default (Windows).sublime-keymap",
+		"/F/Mis Documentos/Mis Programas/licencia Sublime Text 2.txt"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#test",
+			"width",
+			"#",
+			"menu",
+			"emyth",
+			"display none",
+			"alert",
+			"[i]",
+			"panel",
+			"deshabili",
+			"webtranslations",
+			"web",
+			"casaflor",
+			"fijar",
+			"custom-thumb",
+			"emyth"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/wamp/www/43._webmoderna/webmoderna-maqueta/index.html",
+					"settings":
+					{
+						"buffer_size": 22773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true
+}

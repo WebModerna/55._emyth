@@ -1,0 +1,74 @@
+// Portfolio
+.portfolio
+	.heading
+		background $color_7
+
+
+.portfolioContenedor
+	margin-bottom 3em
+
+// Isotope Filtros
+.filtrar
+	margin-top 2em
+	margin-left auto
+	margin-bottom 1em
+	margin-right auto
+	a
+		.actual
+			background $color_9
+
+.isotope-item
+	display inline-block
+	margin-top 1%
+	margin-bottom 1%
+	max-width 320px
+	z-index 2
+	figure
+		border 1px solid $nube
+		margin 1%
+		overflow hidden
+		padding 1%
+		position relative
+		transition_comun()
+		&:hover
+		&:focus
+			figcaption
+				bottom 0
+			img
+				transform scale(1.2)
+		figcaption
+			background rgba($negro_puro, 0.8)
+			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc222222', endColorstr='#cc222222',GradientType=1 )")
+			bottom -3em
+			display block
+			margin 0
+			position absolute
+			transition bottom 0.2s ease-in-out
+			width 100%
+			/*width calc(100% - 8px)
+			width -o-calc(100% - 8px)
+			width -ms-calc(100% - 8px)
+			width -moz-calc(100% - 8px)
+			width -webkit-calc(100% - 8px)*/
+			z-index 8
+			a
+				display block
+				padding 0.5em
+		img
+			display block
+			margin 0
+			padding 0
+			transition_comun()
+			width 100%
+
+.isotope
+	transition-property height, width
+
+.isotope
+.isotope-item
+	transition-duration 0.8s
+	transition-property transform, opacity
+
+.isotope-hidden.isotope-item
+	pointer-events none
+	z-index 1

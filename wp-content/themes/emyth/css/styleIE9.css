@@ -1,0 +1,11 @@
+/* PARA IE9 */
+@media all and (min-width: 800px) {
+	/* El formulario */
+	.contenido--item-single--content form fieldset
+	{
+		display: inline-block;
+		margin: 0 1%;
+		vertical-align: top;
+		width: 47.5%;
+	}
+}

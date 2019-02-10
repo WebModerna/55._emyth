@@ -1,0 +1,2144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emyth Argentina 2.0\n"
+"POT-Creation-Date: 2016-08-16 00:13-0300\n"
+"PO-Revision-Date: 2016-08-16 00:14-0300\n"
+"Last-Translator: Edgardo Raúl Galletto | WebModerna <info@webmoderna.com."
+"ar>\n"
+"Language-Team: WebModerna <info@webmoderna.com.ar>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: options-framework-theme-master\n"
+"X-Poedit-SearchPathExcluded-2: stylus\n"
+"X-Poedit-SearchPathExcluded-3: js\n"
+"X-Poedit-SearchPathExcluded-4: css\n"
+"X-Poedit-SearchPathExcluded-5: fonts\n"
+"X-Poedit-SearchPathExcluded-6: img\n"
+
+#: 404.php:15
+msgid "Error 404. La página que estás buscando no existe."
+msgstr "Error 404. The page is not exist."
+
+#: blog.php:73 category.php:59 tag.php:59
+msgid "Leer más"
+msgstr "Read more"
+
+#: blog.php:89 category.php:76 contacto.php:276 encuesta.php:577 page.php:34
+#: servicios.php:28 single.php:88 tag.php:76
+msgid "No hay nada publicado."
+msgstr "No published nothing at this momento."
+
+#: category.php:14
+msgid "Categoría de Noticia: "
+msgstr "Category News:"
+
+#: comments.php:13
+msgid "Por favor, no cargues esta página directamente. Gracias :-D"
+msgstr "Please, don't load this page directly."
+
+#: comments.php:17
+msgid ""
+"Esta publicación está protegida con contraseña. Iniciá sesión para ver los "
+"comentarios."
+msgstr "This post is protected by password, log in to view commentarys."
+
+#: comments.php:26
+msgid "No hay respuestas"
+msgstr "No responses"
+
+#: comments.php:26
+msgid "Una Respuesta"
+msgstr "One response"
+
+#: comments.php:26
+msgid "% Respuestas"
+msgstr "% Responses"
+
+#: comments.php:46
+msgid "Responder"
+msgstr "Reply"
+
+#: comments.php:76
+msgid "Los comentarios están cerrados."
+msgstr "The comments are closed."
+
+#: comments.php:89
+msgid "Dejar un Comentario"
+msgstr "Make a comment"
+
+#: comments.php:89
+#, php-format
+msgid "Dejar un Comentario a %s"
+msgstr "Make a commentari to %s"
+
+#: comments.php:100
+msgid "Iniciar sesión"
+msgstr "Logg in"
+
+#: comments.php:102
+msgid "para publicar un comentario"
+msgstr "for publish a commentary"
+
+#: comments.php:112
+msgid "Hola"
+msgstr "Hi"
+
+#: comments.php:117
+msgid "Cerrar sesión"
+msgstr "Log out"
+
+#: comments.php:118
+msgid "Salir"
+msgstr "Logout"
+
+#: comments.php:126 contacto.php:204 encuesta.php:313
+msgid "Apellido y Nombre"
+msgstr "Full name"
+
+#: comments.php:128
+msgid "E-Mail. No será publicado"
+msgstr "E-Mail. It wont be published"
+
+#: comments.php:141
+msgid "Comentario"
+msgstr "Comment"
+
+#: comments.php:146 contacto.php:259 encuesta.php:534
+msgid "Enviar"
+msgstr "Submit"
+
+#: comments.php:150
+msgid "Limpiar"
+msgstr "Cean"
+
+#: contacto.php:30
+msgid "Consulta vía web"
+msgstr "Consult from web"
+
+#: contacto.php:67 encuesta.php:67
+msgid "Debes completar tu nombre y apellido"
+msgstr "You must fill your full name"
+
+#: contacto.php:73 encuesta.php:130
+msgid "Debes completar tu teléfono."
+msgstr "You must put your telephone number."
+
+#: contacto.php:79 encuesta.php:136
+msgid "Debes seleccionar tu nivel de educación."
+msgstr "You must select your education level."
+
+#: contacto.php:85 encuesta.php:73
+msgid "Debes completar tu dirección de correo eletrónico"
+msgstr ""
+
+#: contacto.php:90 encuesta.php:78
+msgid "La dirección de correo electrónico es inválida."
+msgstr ""
+
+#: contacto.php:96
+msgid "Tienes que ingresar un mensaje."
+msgstr ""
+
+#: contacto.php:109 encuesta.php:171
+msgid "El código de seguridad es incorrecto"
+msgstr ""
+
+#: contacto.php:189 encuesta.php:265
+msgid "Hubo un error al enviar el mensaje :-("
+msgstr ""
+
+#: contacto.php:198
+msgid "Formulario enviado exitosamente :-D"
+msgstr ""
+
+#: contacto.php:217 encuesta.php:371 includes/22._perfil_usuario.php:30
+#: includes/22._perfil_usuario.php:78
+msgid "Teléfono"
+msgstr ""
+
+#: contacto.php:223 encuesta.php:377
+msgid "Nivel de Educación"
+msgstr ""
+
+#: contacto.php:226 encuesta.php:380
+msgid "Seleccionar"
+msgstr ""
+
+#: contacto.php:227 encuesta.php:381
+msgid "Secundario"
+msgstr ""
+
+#: contacto.php:228 encuesta.php:382
+msgid "Terciario"
+msgstr ""
+
+#: contacto.php:229 encuesta.php:383
+msgid "Autodidacta"
+msgstr ""
+
+#: contacto.php:230 encuesta.php:384
+msgid "Profesional Universitario"
+msgstr ""
+
+#: contacto.php:231 encuesta.php:385
+msgid "Posgrado"
+msgstr ""
+
+#: contacto.php:232 encuesta.php:386
+msgid "Magister"
+msgstr ""
+
+#: contacto.php:233 encuesta.php:387
+msgid "Doctorado"
+msgstr ""
+
+#: contacto.php:238 includes/03._el_slider.php:9 includes/03._el_slider.php:31
+msgid "Mensaje"
+msgstr ""
+
+#: contacto.php:240
+msgid "Escribir aquí"
+msgstr ""
+
+#: contacto.php:244 encuesta.php:519
+msgid "Escribe el código de la imagen"
+msgstr ""
+
+#: contacto.php:250 contacto.php:251 encuesta.php:525 encuesta.php:526
+msgid "Recargar imagen"
+msgstr ""
+
+#: contacto.php:263 encuesta.php:538
+msgid "Borrar"
+msgstr ""
+
+#: encuesta.php:19
+msgid "Encuesta vía web"
+msgstr ""
+
+#: encuesta.php:84
+msgid "Debes completar el nombre de tu empesa"
+msgstr ""
+
+#: encuesta.php:90
+msgid "Debes completar el cargo o la posición que ocupas en la empesa"
+msgstr ""
+
+#: encuesta.php:96
+msgid "Debes completar la localidad"
+msgstr ""
+
+#: encuesta.php:102
+msgid "Debes completar el rubro o la actividad de la empresa."
+msgstr ""
+
+#: encuesta.php:108
+msgid "Debes colocar el año que más o menos comenzó la empresa."
+msgstr ""
+
+#: encuesta.php:114
+msgid "Debes elegir un tipo de moneda."
+msgstr ""
+
+#: encuesta.php:118
+msgid "Debes colocar en monto de pesos, las ventas del año anterior"
+msgstr ""
+
+#: encuesta.php:124
+msgid "Si no tienes empleados debes poner 0 (cero)."
+msgstr ""
+
+#: encuesta.php:142 encuesta.php:146
+msgid "Debes elegir una opción."
+msgstr ""
+
+#: encuesta.php:144
+msgid "Otro"
+msgstr ""
+
+#: encuesta.php:152
+msgid "Debes estar de acuerdo sí o sí. ¿Lo estás?"
+msgstr ""
+
+#: encuesta.php:158
+msgid "Tienes que elegir mínimo unas tres opciones."
+msgstr ""
+
+#: encuesta.php:274
+msgid "¡Gracias por responder! ¡Que disfrutes la última partel del libro!"
+msgstr ""
+
+#: encuesta.php:291
+msgid "Ahora puedes bajar la última parte del libro"
+msgstr ""
+
+#: encuesta.php:300 home.php:244
+msgid "Botón 3"
+msgstr ""
+
+#: encuesta.php:326
+msgid "Cargo o posición dentro de la empresa"
+msgstr ""
+
+#: encuesta.php:332
+msgid "Nombre de la empresa"
+msgstr ""
+
+#: encuesta.php:338
+msgid "Localidad"
+msgstr ""
+
+#: encuesta.php:344
+msgid "Rubro / Principal producto"
+msgstr ""
+
+#: encuesta.php:350
+msgid "Año de fundación de la empresa"
+msgstr ""
+
+#: encuesta.php:356
+msgid "Ventas del año anterior"
+msgstr ""
+
+#: encuesta.php:392
+msgid "Si tienes pesonal a cargo, ¿cuántos empleados son?"
+msgstr ""
+
+#: encuesta.php:399
+msgid "Elije las tres frustraciones más importantes de tu empresa:"
+msgstr ""
+
+#: encuesta.php:403 encuesta.php:404
+msgid "El Negocio es muy dependiente de mí."
+msgstr ""
+
+#: encuesta.php:408 encuesta.php:409
+msgid "El Negocio no está creciendo."
+msgstr ""
+
+#: encuesta.php:413 encuesta.php:414
+msgid "Problemas con el socio / con la familia."
+msgstr ""
+
+#: encuesta.php:418 encuesta.php:419
+msgid "No puedo encontrar la gente adecuada."
+msgstr ""
+
+#: encuesta.php:423 encuesta.php:424
+msgid "No sé cómo hacer para que la gente me haga caso."
+msgstr ""
+
+#: encuesta.php:428 encuesta.php:429
+msgid "No entiendo las finanzas."
+msgstr ""
+
+#: encuesta.php:433 encuesta.php:434
+msgid "Los empleados no se comprometen lo suficiente."
+msgstr ""
+
+#: encuesta.php:438 encuesta.php:439
+msgid "Necesito mejorar el marketing."
+msgstr ""
+
+#: encuesta.php:443 encuesta.php:444
+msgid "No genera suficiente efectivo."
+msgstr ""
+
+#: encuesta.php:448 encuesta.php:449
+msgid "No tengo suficientes ventas."
+msgstr ""
+
+#: encuesta.php:453 encuesta.php:454
+msgid "No me alcanzan las horas del día."
+msgstr ""
+
+#: encuesta.php:458 encuesta.php:459
+msgid "No está lo suficientemente sistematizado."
+msgstr ""
+
+#: encuesta.php:463 encuesta.php:464
+msgid "Quisiera vender mi negocio."
+msgstr ""
+
+#: encuesta.php:472
+msgid "¿Como conociste de EMyth Argentina?"
+msgstr ""
+
+#: encuesta.php:475 encuesta.php:476
+msgid "Web."
+msgstr ""
+
+#: encuesta.php:480 encuesta.php:481
+msgid "Recomendación."
+msgstr ""
+
+#: encuesta.php:485 encuesta.php:486
+msgid "Curso."
+msgstr ""
+
+#: encuesta.php:490 encuesta.php:491
+msgid "Seminario."
+msgstr ""
+
+#: encuesta.php:495 encuesta.php:496 encuesta.php:500
+msgid "Otro."
+msgstr ""
+
+#: encuesta.php:507
+msgid "¿Te interesaría conocer más sobre cómo podemos ayudarte? "
+msgstr ""
+
+#: encuesta.php:515
+msgid "SI"
+msgstr ""
+
+#: encuesta.php:556
+msgid ""
+"Debes iniciar sesión en este sitio para poder completar la encuesta. O "
+"registrarte si todavía no lo has hecho."
+msgstr ""
+
+#: encuesta.php:565 header.php:142 home.php:214 home.php:292
+msgid "Registrarse"
+msgstr ""
+
+#: encuesta.php:569 header.php:144 home.php:218 home.php:296
+msgid "Entrar"
+msgstr ""
+
+#: equipo.php:33 includes/15._equipo_trabajo.php:8
+#: includes/15._equipo_trabajo.php:9
+msgid "Equipo de Trabajo"
+msgstr ""
+
+#: equipo.php:74
+msgid "No hay nadie"
+msgstr ""
+
+#: equipo.php:75
+msgid ""
+"No hay ningún integrante del equipo de trabajo hasta ahora. Debes agregar a "
+"alquien."
+msgstr ""
+
+#: footer.php:49
+msgid "Desarrollado por "
+msgstr ""
+
+#: footer.php:52
+msgid "Ir hacia arriba"
+msgstr ""
+
+#: formulario_contacto.php:153 formulario_encuesta.php:153
+msgid "Apellido y Nombre: "
+msgstr ""
+
+#: formulario_contacto.php:165 formulario_encuesta.php:165
+msgid "Teléfono: "
+msgstr ""
+
+#: formulario_contacto.php:171 formulario_encuesta.php:171
+msgid "Nivel de educación: "
+msgstr ""
+
+#: formulario_contacto.php:177
+msgid "Mensaje: "
+msgstr ""
+
+#: formulario_contacto.php:183 formulario_encuesta.php:225
+msgid "Dirección IP: "
+msgstr ""
+
+#: formulario_contacto.php:189 formulario_encuesta.php:231
+msgid "Navegador Web: "
+msgstr ""
+
+#: formulario_contacto.php:222 formulario_encuesta.php:264
+msgid ""
+"Este mensaje y sus adjuntos son privados, confidenciales y exclusivos para "
+"sus destinatarios. Pueden contener informacion protegida por normas legales "
+"y de secreto profesional. Bajo ninguna circunstancia su contenido puede ser "
+"transmitido o revelado a terceros ni divulgado en forma alguna. Si usted los "
+"ha recibido por error, por favor comuníquenoslo inmediatamente vía correo "
+"electrónico y tenga la amabilidad de eliminarlos de su sistema. Muchas "
+"gracias."
+msgstr ""
+"This message and its attachments are private, confidential and for the "
+"intended recipient only. It may include legally privileged information and "
+"professional secrecy. Under no circumstances can be copied, disclosed or "
+"distributed to anyone. If you have received this message by mistake, please "
+"notify the sender immediately by e-mail and then delete it from your system. "
+"Thank you."
+
+#: formulario_contacto.php:225 formulario_encuesta.php:267
+msgid ""
+"Queda prohibida su reproducción o redistribución total o parcial a "
+"destinatarios no autorizados expresamente por E-Myth Argentina, resultando "
+"quien infrinja dicha disposición infractor a la Ley 11723 y concordantes."
+msgstr ""
+
+#: formulario_contacto.php:228 formulario_encuesta.php:270
+msgid ""
+"Colabora cuidando nuestro Medio Ambiente. Por favor, no imprimas este "
+"mensaje si no es necesario."
+msgstr ""
+"Protect our enviroment. Please, do not print this e-mail unless you really "
+"need to. "
+
+#: formulario_encuesta.php:177
+msgid "Nombre de la Empresa: "
+msgstr ""
+
+#: formulario_encuesta.php:183
+msgid "Rubro / Principal producto: "
+msgstr ""
+
+#: formulario_encuesta.php:189
+msgid "Localidad: "
+msgstr ""
+
+#: formulario_encuesta.php:195
+msgid "Ventas del año anterior: "
+msgstr ""
+
+#: formulario_encuesta.php:201
+msgid "Personal a cargo: "
+msgstr ""
+
+#: formulario_encuesta.php:207
+msgid "Año de fundación de la empresa: "
+msgstr ""
+
+#: formulario_encuesta.php:213
+msgid "¿Como conociste de "
+msgstr ""
+
+#: formulario_encuesta.php:219
+msgid "Principales Frustraciones: "
+msgstr ""
+
+#: functions.php:183 includes/11._paginacion.php:8
+msgid "Siguiente"
+msgstr "Next"
+
+#: functions.php:189
+msgid "Anterior"
+msgstr "Back"
+
+#: functions.php:353
+msgid "Desarrollado por"
+msgstr "Powered by"
+
+#: functions.php:353 header.php:75 language/header-home.php:44
+msgid "WebModerna | el futuro de la web"
+msgstr "WebModerna | the future of the web"
+
+#: functions.php:409
+msgid "Menú Principal"
+msgstr "Main Menú"
+
+#: functions.php:410
+msgid "Menú Secundario"
+msgstr "Second Menu"
+
+#: functions.php:473
+msgid "¡Sal de mi jardín! ¡AHORA MISMO!"
+msgstr "Get out from my garden! Now!"
+
+#: header.php:39
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: home.php:153
+msgid "Botón 1"
+msgstr ""
+
+#: home.php:179 home.php:194
+msgid "Botón 2"
+msgstr ""
+
+#: home.php:313
+msgid "No hay contenido para mostrar"
+msgstr ""
+
+#: home.php:328
+msgid "Hacer test"
+msgstr ""
+
+#: home.php:348
+msgid "No hay nada."
+msgstr ""
+
+#: includes/01._login.php:39
+msgid "Cuánto es "
+msgstr ""
+
+#: includes/03._el_slider.php:8 includes/03._el_slider.php:32
+msgid "Mensajes"
+msgstr ""
+
+#: includes/03._el_slider.php:10 includes/03._el_slider.php:11
+msgid "Mensaje de la Home"
+msgstr ""
+
+#: includes/03._el_slider.php:12
+msgid "Mensaje superior:"
+msgstr ""
+
+#: includes/03._el_slider.php:13
+msgid "Todos los Mensajes"
+msgstr ""
+
+#: includes/03._el_slider.php:14
+msgid "Agregar nuevo Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:15 includes/15._equipo_trabajo.php:14
+#: includes/21._testimonios.php:15
+msgid "Agregar uno nuevo"
+msgstr "Add a new"
+
+#: includes/03._el_slider.php:16
+msgid "Nuevo Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:17
+msgid "Editar Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:18
+msgid "Actualizar Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:19
+msgid "Ver Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:20
+msgid "Buscar Mensaje"
+msgstr ""
+
+#: includes/03._el_slider.php:21
+msgid "No hay Mensajes"
+msgstr ""
+
+#: includes/03._el_slider.php:22
+msgid "No hay Mensajes en la papelera"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:56
+#: includes/04._regenerate-thumbnails.php:81
+#: includes/04._regenerate-thumbnails.php:95
+#: includes/04._regenerate-thumbnails.php:112
+#: includes/04._regenerate-thumbnails.php:146
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:56
+msgid "Regen. Thumbnails"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:81
+msgid "Regenerate the thumbnails for this single image"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:154
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:168
+#, php-format
+msgid "Unable to find any images. Are you sure <a href='%s'>some exist</a>?"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:179
+msgid ""
+"Please be patient while the thumbnails are regenerated. This can take a "
+"while if your server is slow (inexpensive hosting) or if you have many "
+"images. Do not navigate away from this page until this script is done or the "
+"thumbnails will not be resized. You will be notified via this page when the "
+"regenerating is completed."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:183
+#, php-format
+msgid "To go back to the previous page, <a href=\"%s\">click here</a>."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:184
+#, php-format
+msgid ""
+"All done! %1$s image(s) were successfully resized in %2$s seconds and there "
+"were %3$s failure(s). To try regenerating the failed images again, <a href="
+"\"%4$s\">click here</a>. %5$s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:185
+#, php-format
+msgid ""
+"All done! %1$s image(s) were successfully resized in %2$s seconds and there "
+"were 0 failures. %3$s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:189
+#: includes/04._regenerate-thumbnails.php:338
+msgid "You must enable Javascript in order to proceed!"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:195
+msgid "Abort Resizing Images"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:197
+msgid "Debugging Information"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:200
+#, php-format
+msgid "Total Images: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:201
+#, php-format
+msgid "Images Resized: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:202
+#, php-format
+msgid "Resize Failures: %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:233
+msgid "Stopping..."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:285
+#, php-format
+msgid ""
+"The resize request was abnormally terminated (ID %s). This is likely due to "
+"the image exceeding available memory or some other type of fatal error."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:328
+#, php-format
+msgid ""
+"Use this tool to regenerate thumbnails for all images that you have uploaded "
+"to your blog. This is useful if you've changed any of the thumbnail "
+"dimensions on the <a href='%s'>media settings page</a>. Old thumbnails will "
+"be kept to avoid any broken images due to hard-coded URLs."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:330
+#, php-format
+msgid ""
+"You can regenerate specific images (rather than all images) from the <a "
+"href='%s'>Media</a> page. Hover over an image's row and click the link to "
+"resize just that one image or use the checkboxes and the &quot;Bulk "
+"Actions&quot; dropdown to resize multiple images (WordPress 3.1+ only)."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:332
+msgid ""
+"Thumbnail regeneration is not reversible, but you can just change your "
+"thumbnail dimensions back to the old values and click the button again if "
+"you don't like the results."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:334
+msgid "To begin, just press the button below."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:336
+msgid "Regenerate All Thumbnails"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:360
+#, php-format
+msgid "Failed resize: %s is an invalid image ID."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:363
+msgid "Your user account doesn't have permission to resize images"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:368
+#, php-format
+msgid "The originally uploaded image file cannot be found at %s"
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:377
+msgid "Unknown failure reason."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:382
+#, php-format
+msgid "&quot;%1$s&quot; (ID %2$s) was successfully resized in %3$s seconds."
+msgstr ""
+
+#: includes/04._regenerate-thumbnails.php:388
+#, php-format
+msgid ""
+"&quot;%1$s&quot; (ID %2$s) failed to resize. The error message was: %3$s"
+msgstr ""
+
+#: includes/07._sidebar.php:7 includes/07._sidebar.php:8
+msgid "Barra Lateral Derecha"
+msgstr ""
+
+#: includes/07._sidebar.php:19 includes/07._sidebar.php:20
+msgid "Barra del Pie 1"
+msgstr ""
+
+#: includes/07._sidebar.php:31 includes/07._sidebar.php:32
+msgid "Barra del Pie 2"
+msgstr ""
+
+#: includes/07._sidebar.php:43 includes/07._sidebar.php:44
+msgid "Barra del Pie 3"
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:37
+msgid "Botones de acción"
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:84
+msgid "Descargar ebook parte 1."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:93
+msgid "Descargar ebook parte 2."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:102
+msgid "Descargar ebook parte 3."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:111
+msgid "Test personalizado."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:559
+msgid "S.E.O. y posicionamiento web"
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:574
+msgid "Palabras claves."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:578
+msgid ""
+"Palabras claves (keywords) separadas por comas. Son útiles para SEO en "
+"algunos buscadores. Máximo 160 caracteres."
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:587
+msgid "Descripción"
+msgstr ""
+
+#: includes/08._configuracion_metabox.php:588
+msgid ""
+"Es una descripción que aparece en el meta description. Es muy recomendable "
+"para SEO. Máximo 160 caracteres."
+msgstr ""
+
+#: includes/09._thumbnails.php:53
+msgid "Tamaño recortado 1"
+msgstr ""
+
+#: includes/09._thumbnails.php:54
+msgid "Tamaño recortado 2"
+msgstr ""
+
+#: includes/09._thumbnails.php:55
+msgid "Tamaño recortado 3"
+msgstr ""
+
+#: includes/09._thumbnails.php:56
+msgid "Tamaño recortado 4"
+msgstr ""
+
+#: includes/09._thumbnails.php:57
+msgid "Tamaño recortado 5"
+msgstr ""
+
+#: includes/09._thumbnails.php:58
+msgid "Tamaño recortado 6"
+msgstr ""
+
+#: includes/09._thumbnails.php:59
+msgid "Tamaño recortado 7"
+msgstr ""
+
+#: includes/09._thumbnails.php:60
+msgid "Tamaño recortado 8"
+msgstr ""
+
+#: includes/09._thumbnails.php:61
+msgid "Tamaño recortado 9"
+msgstr ""
+
+#: includes/09._thumbnails.php:64
+msgid "Tamaño adaptable 1"
+msgstr ""
+
+#: includes/09._thumbnails.php:65
+msgid "Tamaño adaptable 2"
+msgstr ""
+
+#: includes/09._thumbnails.php:66
+msgid "Tamaño adaptable 3"
+msgstr ""
+
+#: includes/09._thumbnails.php:67
+msgid "Tamaño adaptable 4"
+msgstr ""
+
+#: includes/09._thumbnails.php:68
+msgid "Tamaño adaptable 5"
+msgstr ""
+
+#: includes/09._thumbnails.php:69
+msgid "Tamaño adaptable 6"
+msgstr ""
+
+#: includes/09._thumbnails.php:70
+msgid "Tamaño adaptable 7"
+msgstr ""
+
+#: includes/10._breadcrums.php:14
+msgid "Inicio"
+msgstr "Home"
+
+#: includes/11._paginacion.php:4
+msgid "Página"
+msgstr "Page"
+
+#: includes/11._paginacion.php:5
+msgid "de"
+msgstr "of"
+
+#: includes/11._paginacion.php:6
+msgid "Primero"
+msgstr "First"
+
+#: includes/11._paginacion.php:7
+msgid "Atrás"
+msgstr "Back"
+
+#: includes/11._paginacion.php:9
+msgid "Último"
+msgstr "Last"
+
+#: includes/12._calendario_reservas.php:9
+msgid "Calendario de Reservas."
+msgstr "Calendary of reserves."
+
+#: includes/12._calendario_reservas.php:36
+msgid ""
+"Hacer clic en el campo del formulario y luego clic en las fechas deseadas"
+msgstr ""
+
+#: includes/13._registro_usuarios.php:42
+#: includes/custom_registration_form.php:42 includes/includes/form.php:90
+msgid "Register"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:6 includes/15._equipo_trabajo.php:10
+msgid "Integrantes"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:7 includes/15._equipo_trabajo.php:33
+msgid "Equipo"
+msgstr "Team"
+
+#: includes/15._equipo_trabajo.php:11
+msgid "Integrante superior:"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:12
+msgid "Todos los integrantes"
+msgstr "All team"
+
+#: includes/15._equipo_trabajo.php:13
+msgid "Agregar un nuevo integrante"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:15
+msgid "Nuevo integrante del equipo"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:16
+msgid "Editar al integrante"
+msgstr "Edit team"
+
+#: includes/15._equipo_trabajo.php:17
+msgid "Actualizar al integrante del equipo"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:18
+msgid "Ver Integrante"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:19
+msgid "Buscar integrantes"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:20
+msgid "No hay integrentes. Está vacío."
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:21
+msgid "Vacío"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:22
+msgid "Foto destacada"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:23
+msgid "Colocar una foto destacada del integrante"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:24
+msgid "Remover la foto"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:25
+msgid "Usar como una foto principal"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:26
+msgid "Insertar dentro del Integrante"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:27
+msgid "Actualizar todo el equipo"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:28
+msgid "Listado del Equipo de trabajo"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:29
+msgid "Navegar por el listado del equipo de trabajo"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:30
+msgid "Filtrar el listado de gente"
+msgstr ""
+
+#: includes/15._equipo_trabajo.php:34
+msgid "Nuestro equipo de trabajo"
+msgstr ""
+
+#: includes/21._testimonios.php:7 sidebar.php:27
+msgid "Testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:8 includes/21._testimonios.php:43
+msgid "Testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:9 includes/21._testimonios.php:10
+msgid "Testomonios"
+msgstr ""
+
+#: includes/21._testimonios.php:11
+msgid "Archivo de testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:12
+msgid "Testomonio padre:"
+msgstr ""
+
+#: includes/21._testimonios.php:13
+msgid "Todos los testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:14
+msgid "Agregar un nuevo testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:16
+msgid "Nuevo testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:17
+msgid "Editar testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:18
+msgid "Actualizar testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:19
+msgid "Ver testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:20
+msgid "Buscar testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:21
+msgid "No hay testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:22
+msgid "No hay testimonios en la papelera"
+msgstr ""
+
+#: includes/21._testimonios.php:23
+msgid "Imagen destacada"
+msgstr ""
+
+#: includes/21._testimonios.php:24
+msgid "Colocar una imagen destacada"
+msgstr ""
+
+#: includes/21._testimonios.php:25
+msgid "Remover una imagen destacada"
+msgstr ""
+
+#: includes/21._testimonios.php:26
+msgid "Usar como Imagen destacada"
+msgstr ""
+
+#: includes/21._testimonios.php:27
+msgid "Insertar dentro del testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:28
+msgid "Cargado en este testimonio"
+msgstr ""
+
+#: includes/21._testimonios.php:29
+msgid "Listado de los testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:30
+msgid "Listado de navegación de testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:31
+msgid "Filtrar listado de testimonios"
+msgstr ""
+
+#: includes/21._testimonios.php:44
+msgid "Testimonios de los clientes"
+msgstr ""
+
+#: includes/22._perfil_usuario.php:20 includes/22._perfil_usuario.php:70
+msgid "Ciudad"
+msgstr ""
+
+#: includes/22._perfil_usuario.php:25 includes/22._perfil_usuario.php:74
+msgid "Provincia"
+msgstr ""
+
+#: includes/22._perfil_usuario.php:43
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Ciudad."
+msgstr ""
+
+#: includes/22._perfil_usuario.php:47
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Provincia."
+msgstr ""
+
+#: includes/22._perfil_usuario.php:51
+msgid "<strong>ERROR</strong>: Por favor, introduce tu Teléfono."
+msgstr ""
+
+#: includes/22._perfil_usuario.php:66
+msgid "¿Nos podrías dar tu opinión?"
+msgstr ""
+
+#: includes/22._perfil_usuario.php:82
+msgid "Opinión/Testimonio"
+msgstr ""
+
+#: includes/24._avatar.php:6
+msgid "Avatar Personalizado"
+msgstr ""
+
+#: includes/24._avatar.php:9
+msgid "Foto de perfil"
+msgstr ""
+
+#: includes/24._avatar.php:21
+msgid "Subir imagen"
+msgstr ""
+
+#: includes/24._avatar.php:23
+msgid "Subir una imagen para tu perfil de 100px por 100px."
+msgstr ""
+
+#: includes/CustomReg.php:57
+msgid "Error on save."
+msgstr ""
+
+#: includes/Saver.php:39
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+#: includes/Saver.php:43
+#, php-format
+msgid "%s is not valid"
+msgstr ""
+
+#: includes/default_form_template.php:9
+msgid "Thank you, your registration was submitted, check your email."
+msgstr ""
+
+#: includes/dm-confirm-email/dm-confirm-email.php:82
+msgid "Confirmación de correo electrónico"
+msgstr "Email Confirmation"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:83
+msgid "Hola "
+msgstr "Hello"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:84
+msgid "Bienvenido a"
+msgstr "Welcome to"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:85
+msgid "Para confirmar tu correo electrónico, haz click en el siguiente enlace"
+msgstr "To confirm your email, please click the link below"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:89
+msgid ""
+"Revisá tu correo electrónico y buscá el mensaje con el enlace de "
+"confirmación."
+msgstr "Check your e-mail for the confirmation link"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:92
+msgid ""
+"Tu correo electrónico está confirmado. Tu contraseña fue enviada a tu "
+"casilla de email."
+msgstr "Your email is now confirmed. Your password was sent to your email"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:93
+msgid "La contraseña es inválida o ha expirado."
+msgstr "Key is not valid or already expired"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:95
+msgid "Bienvenido a nuestro sitio web."
+msgstr "Welcome to our site."
+
+#: includes/dm-confirm-email/dm-confirm-email.php:125
+#: includes/dm-confirm-email/inc/pluggable.php:14
+#: includes/dm-confirm-email/inc/pluggable.php:35
+#, php-format
+msgid "Nombre de usuario: %s"
+msgstr "Username: %s"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:126
+#: includes/dm-confirm-email/inc/pluggable.php:36
+#, php-format
+msgid "Contraseña: %s"
+msgstr "Contraseña: %s"
+
+#: includes/dm-confirm-email/dm-confirm-email.php:141
+#: includes/dm-confirm-email/inc/pluggable.php:47
+msgid "Tu nombre de usuario y contraseña"
+msgstr "Your username and password"
+
+#: includes/dm-confirm-email/inc/pluggable.php:13
+#, php-format
+msgid "Hay una registración de un usuario nuevo en tu sitio web %s:"
+msgstr "New user registration on your site %s:"
+
+#: includes/dm-confirm-email/inc/pluggable.php:15
+#, php-format
+msgid "Correo Electrónico: %s"
+msgstr "E-mail: %s"
+
+#: includes/dm-confirm-email/inc/pluggable.php:17
+#, php-format
+msgid "[%s] Nuevo usuario registrado"
+msgstr "[%s] New User Registration"
+
+#: includes/dm-confirm-email/models/login-register.php:61
+msgid "Formulario de registro"
+msgstr "Registration Form"
+
+#: includes/dm-confirm-email/models/login-register.php:61
+msgid "Registrar para este sitio"
+msgstr "Register For This Site"
+
+#: includes/dm-confirm-email/models/login-register.php:66
+msgid "Nombre de usuario"
+msgstr "Username"
+
+#: includes/dm-confirm-email/models/login-register.php:70
+#: includes/dm-confirm-email/models/login-resend.php:106
+msgid "Correo electrónico"
+msgstr "E-mail"
+
+#: includes/dm-confirm-email/models/login-register.php:74
+msgid "Una contraseña será enviada a tu corro electrónico."
+msgstr "A password will be e-mailed to you."
+
+#: includes/dm-confirm-email/models/login-register.php:77
+#: includes/dm-confirm-email/models/login-resend.php:117 includes/form.php:89
+msgid "Registrar"
+msgstr "Register"
+
+#: includes/dm-confirm-email/models/login-register.php:81
+#: includes/dm-confirm-email/models/login-resend.php:115
+msgid "Acceder"
+msgstr "Log in"
+
+#: includes/dm-confirm-email/models/login-register.php:82
+msgid "Contraseña perdida y encontrada"
+msgstr "Password Lost and Found"
+
+#: includes/dm-confirm-email/models/login-register.php:82
+msgid "Perdiste tu contraseña?"
+msgstr "Lost your password?"
+
+#: includes/dm-confirm-email/models/login-register.php:83
+msgid "Enviar de vuelta el enlace de confirmación"
+msgstr "Resend Confirmation Link"
+
+#: includes/dm-confirm-email/models/login-register.php:131
+msgid ""
+"<strong>ERROR</strong>: Este nombre de usuario ya está registrado, elegí "
+"otro."
+msgstr ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+
+#: includes/dm-confirm-email/models/login-register.php:134
+msgid ""
+"<strong>ERROR</strong>: Este correo electrónico ya está registrado, elegí "
+"otro."
+msgstr ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+
+#: includes/dm-confirm-email/models/login-resend.php:18
+msgid "<strong>ERROR</strong>: Ingresá una dirección de correo electrónico."
+msgstr "<strong>ERROR</strong>: Enter an e-mail address"
+
+#: includes/dm-confirm-email/models/login-resend.php:25
+msgid "<strong>ERROR</strong>: Correo electrónico no existe."
+msgstr "<strong>ERROR</strong>: Email does not exist"
+
+#: includes/dm-confirm-email/models/login-resend.php:30
+msgid "<strong>ERROR</strong>: Correo electrónico inválido."
+msgstr "<strong>ERROR</strong>: Invalid e-mail."
+
+#: includes/dm-confirm-email/models/login-resend.php:102
+#: includes/dm-confirm-email/models/login-resend.php:118
+msgid "Enviar de vuelta enlace de confirmación"
+msgstr "Resend Confirmation Link"
+
+#: includes/dm-confirm-email/models/login-resend.php:102
+msgid ""
+"Porfavor, ingresá tu dirección de correo electrónico. Recibirás un enlace de "
+"confirmación en tu buzón de email."
+msgstr ""
+"Please enter your email address. You will receive the confirmation link via "
+"email."
+
+#: includes/dm-confirm-email/models/login-resend.php:111
+msgid "Obtener enlace de confirmación"
+msgstr "Get Confirmation Link"
+
+#: includes/dm-confirm-email/models/plugin-page.php:58
+msgid "Por favor ingresá un válido "
+msgstr "Please, email must be valid"
+
+#: includes/dm-confirm-email/models/plugin-page.php:104
+msgid "Contenido del E-Mail"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:105
+msgid "Mensaje de bienvenida del email."
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:106
+msgid "Mensaje de Registración del E-Mail"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:107
+msgid "Mensajes de Notificación"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:115
+msgid "Email Subject"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:122
+msgid "Asunto del e-mail a enviar."
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:129
+msgid "Confirmation Email Text"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:141
+msgid "Enviar un mensaje como HTML?"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:155
+msgid "Send Welcome Message?"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:164
+msgid "Welcome Email Subject"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:174
+msgid "Welcome email message"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:187
+msgid "Send Welcome Message as HTML?"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:201
+msgid "Asunto"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:208
+msgid "Sobreescribir el asunto del e-mail."
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:216
+msgid "Message"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:233
+msgid "Success registration message"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:246
+msgid "Email confirmed message"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:259
+msgid "Invalid / Expired key message"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:272
+msgid "Expiry Time"
+msgstr ""
+
+#: includes/dm-confirm-email/models/plugin-page.php:286
+msgid "Save Changes"
+msgstr ""
+
+#: includes/fields.php:53
+msgid "Full Name"
+msgstr ""
+
+#: includes/fields.php:67
+msgid "Username"
+msgstr ""
+
+#: includes/fields.php:80
+msgid "Email"
+msgstr ""
+
+#: includes/fields.php:97
+msgid "Country"
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:91
+#: includes/includes/class-options-framework-admin.php:92
+msgid "Opciones del sitio web"
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:203
+msgid "Guardar Opciones"
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:204
+msgid "Restaurar valores por defecto"
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:204
+msgid "Click OK para resetear. Cualquier cambio hecho se perderá!"
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:235
+msgid "Configuraciones por defecto restauradas."
+msgstr ""
+
+#: includes/includes/class-options-framework-admin.php:289
+msgid "Opciones guardadas."
+msgstr ""
+
+#: includes/includes/class-options-media-uploader.php:62
+msgid "No hay archivo"
+msgstr ""
+
+#: includes/includes/class-options-media-uploader.php:65
+#: includes/includes/class-options-media-uploader.php:118
+msgid "Subir"
+msgstr ""
+
+#: includes/includes/class-options-media-uploader.php:67
+#: includes/includes/class-options-media-uploader.php:119
+msgid "Remover"
+msgstr ""
+
+#: includes/includes/class-options-media-uploader.php:70
+msgid "Actualiza tu versión de WordPress para un completo soporte multi-media."
+msgstr ""
+
+#: includes/includes/class-options-media-uploader.php:94
+msgid "Ver archivo"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:316
+msgid "No Repetir"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:317
+msgid "Repetir Horizontalmente"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:318
+msgid "Repetir Verticalmente"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:319
+msgid "Repetir Todo"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:331
+msgid "Arriba Izquierda"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:332
+msgid "Arriba Centro"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:333
+msgid "Arriba Derecha"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:334
+msgid "Medio Izquierda"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:335
+msgid "Medio Centro"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:336
+msgid "Medio Derecha"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:337
+msgid "Abajo Izquierda"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:338
+msgid "Abajo Centro"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:339
+msgid "Abajo Derecha"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:351
+msgid "Desplazamiento normal"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:352
+msgid "Fija en un lugar"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:424
+msgid "Normal"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:425
+msgid "Cursiva"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:426
+msgid "Negrita"
+msgstr ""
+
+#: includes/includes/class-options-sanitization.php:427
+msgid "Negrita Cursiva"
+msgstr ""
+
+#: includes/meta-box/inc/core.php:40
+msgid "Documentation"
+msgstr ""
+
+#: includes/meta-box/inc/core.php:41
+msgid "Extensions"
+msgstr ""
+
+#: includes/meta-box/inc/field.php:196
+msgid "+ Añadir otro"
+msgstr ""
+
+#: includes/meta-box/inc/fields/autocomplete.php:14
+#: includes/meta-box/inc/fields/autocomplete.php:75
+#: includes/meta-box/inc/fields/autocomplete.php:92
+#: includes/meta-box/inc/fields/file.php:153
+#: includes/meta-box/inc/fields/image.php:124
+msgid "Delete"
+msgstr ""
+
+#: includes/meta-box/inc/fields/button.php:29
+msgid "Click me"
+msgstr ""
+
+#: includes/meta-box/inc/fields/checkbox.php:85
+msgid "Yes"
+msgstr ""
+
+#: includes/meta-box/inc/fields/checkbox.php:85
+msgid "No"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:18
+msgid "Select File"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:41
+#: includes/meta-box/inc/fields/select.php:91
+msgid "Select"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file-input.php:43
+#: includes/meta-box/inc/fields/media.php:21
+msgid "Remove"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:15
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:83
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:96
+msgid "Upload Files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:97
+msgid "+ Add new file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/file.php:154
+#: includes/meta-box/inc/fields/image.php:125
+#: includes/meta-box/inc/fields/media.php:22
+msgid "Edit"
+msgstr ""
+
+#: includes/meta-box/inc/fields/image.php:61
+#: includes/meta-box/inc/fields/thickbox-image.php:53
+msgid "Upload Images"
+msgstr ""
+
+#: includes/meta-box/inc/fields/image.php:62
+msgid "+ Add new image"
+msgstr ""
+
+#: includes/meta-box/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:18
+msgid "+ Add Media"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:19
+msgid " file"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:20
+msgid " files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:23
+msgid "View"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:24
+msgid "No Title"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:27
+msgid "Select Files"
+msgstr ""
+
+#: includes/meta-box/inc/fields/media.php:28
+msgid "Drop files here to upload"
+msgstr ""
+
+#: includes/meta-box/inc/fields/oembed.php:65
+msgid "Embed HTML not available."
+msgstr ""
+
+#: includes/meta-box/inc/fields/oembed.php:84
+msgid "Preview"
+msgstr ""
+
+#: includes/meta-box/inc/fields/post.php:35
+msgid "Select a post"
+msgstr ""
+
+#: includes/meta-box/inc/fields/post.php:39
+#: includes/meta-box/inc/fields/taxonomy.php:51
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/meta-box/inc/fields/select.php:91
+msgid "All"
+msgstr ""
+
+#: includes/meta-box/inc/fields/select.php:91
+msgid "None"
+msgstr ""
+
+#: includes/meta-box/inc/fields/taxonomy.php:47
+msgid "Select a term"
+msgstr ""
+
+#: includes/meta-box/inc/fields/user.php:34
+msgid "Select an user"
+msgstr ""
+
+#: includes/meta-box/inc/validation.php:42
+msgid "Corrija los errores remarcados e intente de nuevo."
+msgstr ""
+
+#: language/header-home.php:28
+msgid "Error 404"
+msgstr "Error 404"
+
+#: options.php:35
+msgid "Configuración General"
+msgstr ""
+
+#: options.php:40
+msgid "Logotipo del Sitio Web"
+msgstr ""
+
+#: options.php:41
+msgid "Selecciona el logo a mostrar en la web, tamaño 100px x 100px."
+msgstr ""
+
+#: options.php:47
+msgid "Palabras claves"
+msgstr ""
+
+#: options.php:48
+msgid ""
+"Introducir palabras (separadas por comas) claves de la web que son útiles "
+"para algunos buscadores. Muy importantes para SEO."
+msgstr ""
+
+#: options.php:67
+msgid "Google Analitycs"
+msgstr ""
+
+#: options.php:68
+msgid "Introduzca el script de Google Analitycs."
+msgstr ""
+
+#: options.php:79
+msgid "Redes Sociales"
+msgstr ""
+
+#: options.php:84
+msgid "Facebook"
+msgstr ""
+
+#: options.php:85
+msgid "Introduzca el enlace a Facebook."
+msgstr ""
+
+#: options.php:95
+msgid "Twitter"
+msgstr ""
+
+#: options.php:96
+msgid "Introduzca su enlace a Twitter."
+msgstr ""
+
+#: options.php:105
+msgid "Skype"
+msgstr ""
+
+#: options.php:106
+msgid ""
+"Introduzca su usuario de Skype o email de Outlook.com, Msn, Hotmail (Deben "
+"estar habilitados para hacer videoconferencia)."
+msgstr ""
+
+#: options.php:115
+msgid "LinkedIn"
+msgstr ""
+
+#: options.php:116
+msgid "Introduzca su enlace al perfil de LinkedIn."
+msgstr ""
+
+#: options.php:125
+msgid "Google+"
+msgstr ""
+
+#: options.php:126
+msgid "Introduzca su enlace a Google+."
+msgstr ""
+
+#: options.php:143
+msgid "Compartir en Redes Sociales"
+msgstr ""
+
+#: options.php:144
+msgid "Introduzca solamente el script de AddThis."
+msgstr ""
+
+#: options.php:175
+msgid "Datos de Contacto"
+msgstr ""
+
+#: options.php:180
+msgid "E-mail de contacto"
+msgstr ""
+
+#: options.php:181
+msgid ""
+"Introduzca el Email de contacto, se mostrará al pie del sitio web en un "
+"ícono."
+msgstr ""
+
+#: options.php:200
+msgid "Teléfono Fijo"
+msgstr ""
+
+#: options.php:201
+msgid "Introduzca su teléfono fijo incluyendo el código de área."
+msgstr ""
+
+#: options.php:210
+msgid "Teléfono Celular"
+msgstr ""
+
+#: options.php:211
+msgid "Introduzca su teléfono celular incluyendo el código de área."
+msgstr ""
+
+#: options.php:220
+msgid "Dirección"
+msgstr ""
+
+#: options.php:221
+msgid "Introduzca calle, número, ciudad y provincia."
+msgstr ""
+
+#: options.php:223
+msgid "Man Sartín 453, Dpto. 3, Las Catitas, Tierra del Agua."
+msgstr ""
+
+#: options.php:242
+msgid "E-Books"
+msgstr ""
+
+#: options.php:248
+msgid "E-Book 1"
+msgstr ""
+
+#: options.php:249 options.php:267 options.php:301
+msgid "Selecciona un archivo en pdf para subir en la web."
+msgstr ""
+
+#: options.php:256
+msgid "Leyenda del botón de descarga del e-book 1."
+msgstr ""
+
+#: options.php:257
+msgid ""
+"Introduzca una pequeña leyenda que se mostrará en el botón de descarga del e-"
+"book 1."
+msgstr ""
+
+#: options.php:259 options.php:277 options.php:311
+msgid "Haga clic aquí."
+msgstr ""
+
+#: options.php:266
+msgid "E-Book 2"
+msgstr ""
+
+#: options.php:274
+msgid "Leyenda del botón de descarga del e-book 2."
+msgstr ""
+
+#: options.php:275
+msgid ""
+"Introduzca una pequeña leyenda que se mostrará en el botón de descarga del e-"
+"book 2."
+msgstr ""
+
+#: options.php:289 options.php:318
+msgid "Contenido"
+msgstr ""
+
+#: options.php:290 options.php:319
+msgid ""
+"Introduzca el contenido que se mostrará al hacer click en el botón del E-"
+"Book 2 y 3 cuando el usuario no esté registrado."
+msgstr ""
+
+#: options.php:292 options.php:321
+msgid "Contenido ..."
+msgstr ""
+
+#: options.php:300
+msgid "E-Book 3"
+msgstr ""
+
+#: options.php:308
+msgid "Leyenda del botón de descarga del e-book 3."
+msgstr ""
+
+#: options.php:309
+msgid ""
+"Introduzca una pequeña leyenda que se mostrará en el botón de descarga del e-"
+"book 3."
+msgstr ""
+
+#: options.php:331
+msgid "Seleccione una página de destino"
+msgstr ""
+
+#: options.php:339
+msgid "Redirección del botón N° 3"
+msgstr ""
+
+#: options.php:340 options.php:351
+msgid "Elegir a cual página se enlazará el botón."
+msgstr ""
+
+#: options.php:350
+msgid "Redirección del botón N° 4"
+msgstr ""
+
+#: sidebar.php:112
+msgid "Contacto"
+msgstr ""
+
+#: tag.php:14
+msgid "Etiquetas: "
+msgstr ""
+
+#~ msgid "Porfavor ingresá un válido "
+#~ msgstr "Please enter a valid "
+
+#~ msgid ""
+#~ "<strong>ERROR</strong>: Este correo electrónico ya está registrado. Elegí "
+#~ "otro."
+#~ msgstr ""
+#~ "<strong>ERROR</strong>: This email is already registered, please choose "
+#~ "another one."
+
+#~ msgid ""
+#~ "Revisá tu correo electrónico y haz click en el enlace de confirmación."
+#~ msgstr "Check your e-mail for the confirmation link"
+
+#~ msgid "Your email is now confirmed. Your password was sent to your email"
+#~ msgstr "Your email is now confirmed. Your password was sent to your email"
+
+#~ msgid "¿Qué estás haciendo?"
+#~ msgstr "¿What are you doing?"
+
+#~ msgid "Ud. está aquí: "
+#~ msgstr "You are here: "
+
+#~ msgid "En ninguna parte!!!"
+#~ msgstr "No where!!!"
+
+#~ msgid "ERROR 404"
+#~ msgstr "ERROR four hundred four."
+
+#~ msgid "La página que estás buscando no existe."
+#~ msgstr "The page what you are looking for no exist."
+
+#~ msgid "Categoría: \"%s\""
+#~ msgstr "Category: \"%s\""
+
+#~ msgid "Sin imagen"
+#~ msgstr "No image"
+
+#~ msgid "No hay entradas del blog publicadas."
+#~ msgstr "No post published."
+
+#~ msgid "Enviar Comentario"
+#~ msgstr "Submit comment"
+
+#~ msgid "Todos los derechos de copia reservados."
+#~ msgstr "All copyrights reserved."
+
+#~ msgid "Desarrollado por: "
+#~ msgstr "Powered by: "
+
+#~ msgid "Barra lateral derecha"
+#~ msgstr "Right Sidebar Widget"
+
+#~ msgid "Pie de página 1 de 4"
+#~ msgstr "Footer 1 of 4"
+
+#~ msgid "Pie de página 2 de 4"
+#~ msgstr "Footer 2 of 4"
+
+#~ msgid "Pie de página 3 de 4"
+#~ msgstr "Footer 3 of 4"
+
+#~ msgid "Pie de página 4 de 4"
+#~ msgstr "Footer 4 of 4"
+
+#~ msgid "Subir las fotos desde aquí"
+#~ msgstr "Upload images from here"
+
+#~ msgid "IMPORTANTE!!: Las imágenes deben ser mínimo de 2000px de ancho."
+#~ msgstr "Warning! The images size wide must be 2000px at least."
+
+#~ msgid "Arrastrar y soltar. Mover arriba o abajo."
+#~ msgstr "Drag and Drop. Move up and down."
+
+#~ msgid "Seleccionar imagen"
+#~ msgstr "Select image"
+
+#~ msgid "Eliminar imagen"
+#~ msgstr "Delete image"
+
+#~ msgid "Quitar fila"
+#~ msgstr "Delete row"
+
+#~ msgid " Agregar Imagen"
+#~ msgstr " Add image"
+
+#~ msgid "Descripción, título secundario, lo que sea..."
+#~ msgstr "Description, second title, what ever..."
+
+#~ msgid ""
+#~ "Escribí un título secundario o una pequeña descripción de lo que trata "
+#~ "esta página en concreto; lo que consideres más conveniente."
+#~ msgstr "A secondary title o description, whatever you want."
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Sliders"
+#~ msgstr "Sliders"
+
+#~ msgid "Slider"
+#~ msgstr "Slider"
+
+#~ msgid "SlideShow"
+#~ msgstr "SlideShow"
+
+#~ msgid "SlideShow superior:"
+#~ msgstr "Parent SlideShow:"
+
+#~ msgid "Todos los SlideShows"
+#~ msgstr "All SlideShows"
+
+#~ msgid "Agregar nuevo SlideShow"
+#~ msgstr "Add new SlideShow"
+
+#~ msgid "Nuevo SlideShow"
+#~ msgstr "New SlideShow"
+
+#~ msgid "Editar SlideShow"
+#~ msgstr "Edit SlideShow"
+
+#~ msgid "Actualizar SlideShow"
+#~ msgstr "Update Slideshow"
+
+#~ msgid "Ver SlideShow"
+#~ msgstr "View SlideShow"
+
+#~ msgid "Buscar SlideShow"
+#~ msgstr "Search SlideShows"
+
+#~ msgid "No hay SlideShows"
+#~ msgstr "No slideshows"
+
+#~ msgid "No hay SlideShows en la papelera"
+#~ msgstr "No slideshows in trash"
+
+#~ msgid "El Blog"
+#~ msgstr "The Blog"
+
+#~ msgid "Editar"
+#~ msgstr "Edit"
+
+#~ msgid "No encontramos ninguna página publicada."
+#~ msgstr "No pages published."
+
+#~ msgid "Buscando resultados para: \" %s \""
+#~ msgstr "Searching results for: \" %s \""
+
+#~ msgid "No encontramos nada para: \" %s \""
+#~ msgstr "No found results for: \" %s \""
+
+#~ msgid "Búsquedas"
+#~ msgstr "Searchings"
+
+#~ msgid "Buscar..."
+#~ msgstr "Search..."
+
+#~ msgid "Buscar"
+#~ msgstr "Search"
+
+#~ msgid "Etiqueta: \"%s\""
+#~ msgstr "Tag: \"%s\""
+
+#~ msgid "<iframe frameborder='0' width='0' height='0'/>"
+#~ msgstr "<iframe frameborder='0' width='0' height='0'/>"
+
+#~ msgid "<script>"
+#~ msgstr "<script>"
+
+#~ msgid "<div>"
+#~ msgstr "<div>"
+
+#~ msgid "Hola: "
+#~ msgstr "Hello: "
+
+#~ msgid ""
+#~ "Esta publicación está protegida con contraseña. Ingresá la password para "
+#~ "ver los comentarios."
+#~ msgstr "This post is protected by password. Loggin in to view commentarys."
+
+#~ msgid "Los comentarios están cerrados"
+#~ msgstr "Comments are closed."
+
+#~ msgid "Debes iniciar"
+#~ msgstr "You must loggin"
+
+#~ msgid "(Requerido)"
+#~ msgstr "(Required)"

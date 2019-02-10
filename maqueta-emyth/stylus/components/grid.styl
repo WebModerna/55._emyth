@@ -1,0 +1,43 @@
+// Diseño de grid personalizado
+
+$columnas = 12
+$gutter-width = 1%
+$container = 100%
+
+// Contenedor de las columnas
+.container
+	margin 1% auto
+	max-width $container
+	padding 1%
+
+.fila
+	background $gray
+	border 1px solid $black
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+	background $white
+	border 1px solid $ladrillo
+	padding 0 $gutter-width
+
+@media all and (min-width: 480px)
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12
+		flex 0 0 auto
+
+	for $i in 1 ..$columnas
+		.col-{$i}
+			flex-basis ( $container / $columnas ) * $i
+			max-width ( $container / $columnas ) * $i
+
+	.fila
+		display flex
+		flex 0 1 auto
+		flex-direction row
+		flex-wrap wrap
+		overflow hidden
+
+	// Hacer las columnas que se muevan a la derecha
+	for $i in 1 ..$columnas
+		.col-nested-{$i}
+			margin-left ( $container / $columnas ) * $i
+			margin-right 0
+			float right

@@ -1,0 +1,26 @@
+//Go to top
+.gotop
+	bottom 1em
+	display inline-block
+	position fixed
+	right 1em
+	transition 0.2s ease-in-out
+	triangle(1.5em, 1.5em, 'top', rgba($google, 0.5))
+	z-index 99
+	&:hover
+		triangle(1.5em, 1.5em, 'top', $google)
+/*
+@media only screen and ( min-width: 480px )
+	.gotop
+		&-mostrar
+			triangle(1.5em, 1.5em, 'top', rgba($google, 0.5))
+			visibility visible
+			&:hover
+				triangle(1.5em, 1.5em, 'top', $google)
+		&-ocultar
+			triangle(1.5em, 1.5em, 'top', transparent)
+			visibility hidden
+*/
+@media print
+	.gotop
+		display none

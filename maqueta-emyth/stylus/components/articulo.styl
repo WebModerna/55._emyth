@@ -1,0 +1,34 @@
+// Artículo común y corriente.
+
+.articulo
+	article
+		figure
+			border 1px solid $silver
+			display block
+			margin 1em auto
+			figcaption
+				background $nube
+				border-top 1px solid $silver
+				color $gray
+				display block
+				font-size 0.9em
+				padding 0.5em 1em
+				text-align center
+			img
+				display block
+				width 100%
+			
+		
+@media (min-width:28em)
+	.articulo
+		article
+			overflow hidden
+			figure
+				display inline-block
+				float left
+				margin 0 1em 1em 0
+				max-width 450px
+			
+			figure:nth-child(odd)
+				float right
+				margin 1em 0 1em 1em

@@ -1,0 +1,99 @@
+// Mensajes
+.mensajes
+	background-attachment fixed
+	background-color $negro
+	background-position left center
+	background-repeat no-repeat
+	background-size( cover )
+	box-shadow_lindo()
+	color $blanco_puro
+	display table
+	height 100%
+	height 100vh
+	min-height 100%
+	min-height 100vh
+	position relative
+	text-align center
+	width 100%
+
+	&--contenedor
+		display table-cell
+		position relative
+		vertical-align middle
+
+		.mensajes--godown
+			bottom 0
+			left 0
+			margin 0 auto
+			right 0
+			position absolute
+
+			&-link
+				background $naranja_suave url("../img/Entypo_e75c(0)_64.png") center center no-repeat
+				// border 1px solid $blanco_puro
+				border-bottom none
+				border-radius 20em 20em 0 0
+				box-shadow 0px -1px 1px $negro_puro
+				display block
+				height 30px
+				padding 0
+				margin 0 auto
+				position relative
+				width 50px
+
+				&:hover
+				&:focus
+					filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#90000000', endColorstr='#90000000',GradientType=1 )")
+					background-color rgba($naranja_fuerte, 0.5)
+				&:active
+					background-color $naranja_suave
+
+	.articulo
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#90000000', endColorstr='#90000000',GradientType=1 )")
+		background-color rgba($negro_puro, 0.7)
+		display inline-block
+		padding 2em
+		margin 0 auto 5px auto
+
+		ul
+			margin-left 0
+			padding-left 0
+			text-align left
+
+		.mensajes--botones
+			.boton
+			.small
+				display inline-block
+				min-width 150px
+				margin 2px
+			span
+				display inline
+
+	.heading
+		.h2
+			border-bottom 1px solid $negro
+			margin-bottom 1em
+			padding-bottom 1em
+			box-shadow 0px -1px 0px $negro_puro inset
+
+	.banner_oculto
+		display none
+
+/*.mensajes.last-child
+	.mensajes--godown
+		display none*/
+
+@media all and (min-width: 640px)
+	.mensajes
+		&--contenedor
+			.mensajes--godown
+				&-link
+					height 40px
+					width 70px
+
+		.articulo
+			width 70%
+			.mensajes--botones
+				.boton
+				.small
+					padding 1em 2em

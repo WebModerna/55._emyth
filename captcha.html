@@ -1,0 +1,86 @@
+  <!-- The following is example HTML that can be used on your form -->
+  
+  <p>
+	<img id="siimage" style="border: 1px solid #000; margin-right: 15px" src="./securimage_show.php?sid=<?php echo md5(uniqid()) ?>" alt="CAPTCHA Image" align="left">
+	<object type="application/x-shockwave-flash" data="./securimage_play.swf?bgcol=#ffffff&amp;icon_file=./images/audio_icon.png&amp;audio_file=./securimage_play.php" height="32" width="32">
+	<param name="movie" value="./securimage_play.swf?bgcol=#ffffff&amp;icon_file=./images/audio_icon.png&amp;audio_file=./securimage_play.php" />
+	</object>
+	&nbsp;
+	<a tabindex="-1" style="border-style: none;" href="#" title="Refresh Image" onclick="document.getElementById('siimage').src = './securimage_show.php?sid=' + Math.random(); this.blur(); return false"><img src="./images/refresh.png" alt="Reload Image" onclick="this.blur()" align="bottom" border="0"></a><br />
+	<strong>Enter Code*:</strong><br />
+	<input type="text" name="ct_captcha" size="12" maxlength="16" />
+  </p>
+  
+
+<table class="table">
+	<caption>Temporada 2016</caption>
+	<thead>
+		<tr>
+			<th>Cabañas</th>
+			<th>Alta 2017 (precio en efvo.)</th>
+			<th>Alta 2017 (precio de lista)</th>
+			<th>Media (precio en efvo.) Dic.</th>
+			<th>Media (precio en lista) Dic.</th>
+			<th>Baja</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Monoambiente 2 Personas</td>
+			<td>$1.300</td>
+			<td>$1.500</td>
+			<td>$800</td>
+			<td>$900</td>
+			<td>$700</td>
+		</tr>
+		<tr>
+			<td>2 ambientes 3 personas</td>
+			<td>$1.600</td>
+			<td>$1.850</td>
+			<td>$950</td>
+			<td>$1.050</td>
+			<td>$800</td>
+		</tr>
+		<tr>
+			<td>2 Ambientes 4 Personas</td>
+			<td>$1.800</td>
+			<td>$2.050</td>
+			<td>$1.050</td>
+			<td>$1.200</td>
+			<td>$900</td>
+		</tr>
+		<tr>
+			<td>3 Ambientes 4 Personas</td>
+			<td>$2.000</td>
+			<td>$2.300</td>
+			<td>$1.200</td>
+			<td>$1.350</td>
+			<td>$1.000</td>
+		</tr>
+		<tr>
+			<td>3 ambientes 5 personas</td>
+			<td>$2.200</td>
+			<td>$2.250</td>
+			<td>$1.350</td>
+			<td>$1.500</td>
+			<td>$1.100</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="1"><span style="color: #00ff00;">Temporada Alta:</span></td>
+			<td colspan="5"><span style="color: #00ff00;">Enero. Febrero. Semana Santa</span></td>
+		</tr>
+		<tr>
+			<td colspan="1"><span style="color: #ff6600;">Temporada Media:</span></td>
+			<td colspan="5"><span style="color: #ff6600;">Marzo. Diciembre. Vacaciones de invierno. Feriados y fines de semana largo.</span></td>
+		</tr>
+		<tr>
+			<td colspan="1"><span style="color: #ff00ff;">Temporada Baja:</span></td>
+			<td colspan="5"><span style="color: #ff00ff;">Resto del año.</span></td>
+		</tr>
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+	</tfoot>
+</table>

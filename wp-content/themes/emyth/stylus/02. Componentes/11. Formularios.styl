@@ -1,0 +1,220 @@
+// Formularios lo más completo que se pueda.
+
+fieldset
+	color $negro
+	border 1px
+	margin 0 0 0.5em 0
+	padding 0
+
+form
+	margin-bottom 1em
+	text-align left
+	width 100%
+
+
+legend
+	display inline-block
+
+input[type="date"]
+input[type="email"]
+input[type="number"]
+input[type="tel"]
+input[type="text"]
+input[type="url"]
+input[type="search"]
+textarea
+select
+	background radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%)
+	border 1px solid $gris
+	border-radius 0.25em
+	color $negro
+	display block
+	height 2em
+	line-height 1.5em
+	margin-bottom 1em
+	padding 0.25em 0.5em
+	*overflow visible
+	outline none
+	transition all 0.1s ease-in-out
+	vertical-align middle
+	width 100%
+	&:hover
+		border-color $color_8
+		box-shadow 0px 0px 10px 2px $color_8
+	&:focus
+		border-color $color_1
+		box-shadow 0px 0px 10px 2px $color_1
+		outline none
+select
+	option
+		border-radius 0.25em
+textarea
+	min-height 180px
+	resize none
+
+input[disabled]
+textarea[disabled]
+select[disabled]
+input[disabled="disabled"]
+textarea[disabled="disabled"]
+select[disabled="disabled"]
+	opacity 0.5
+	&:hover
+	&:focus
+		box-shadow none
+
+$placeholder =
+	color $gris_fuerte
+
+placeholder("", $placeholder)
+
+
+.captcha
+	legend
+		display block
+
+	a
+	object
+		display inline-block
+		text-decoration none
+		vertical-align middle
+	a
+		&:hover
+		&:focus
+			transform(rotate(45deg))
+		&:active
+			transform(rotate(90deg))
+	object
+		border 1px solid $gris_fuerte
+		border-radius 0.25em
+		height 40px
+		padding 2px
+		width 40px
+
+	&--imagen
+		border 1px solid $gris
+		border-radius 0.25em
+		display inline-block
+		vertical-align middle
+		width 180px
+
+input[type="text"].captcha--input
+	display inline-block
+	height auto
+	margin 0 0.2em
+	vertical-align middle
+	width 90px
+
+label > input[type="radio"]
+	margin-right 0.5em
+
+// Search Formularios
+.form
+	&--search
+		margin-bottom 0
+		&--caja
+			border 1px solid $silver
+			border-radius 0.25em
+			box-sizing()
+			display block
+			margin-bottom 0
+			position relative
+
+		&--boton
+		&--input
+			border-color $silver !important
+			box-shadow(none)
+			display inline-block
+			height 40px
+			min-height 40px
+			max-height 40px
+			line-height 100%
+			margin 0 !important
+			vertical-align middle
+		&--boton
+			background $blanco
+			border-radius 0 0.25em 0.25em 0
+			border-top none
+			border-bottom none
+			border-right none
+			color $silver
+			height 41px
+			max-height 40px
+			max-width 40px
+			min-height 40px
+			min-width 40px
+			padding 0
+			position absolute
+			right 0
+			top 0
+			width 40px
+			img
+				display inline-block
+				margin 0
+				padding 0
+				vertical-align middle
+				width 40px
+			&:before
+				text-align left
+			&:hover
+			&:focus
+				background $blanco_puro
+
+		&--input
+			border none !important
+			background none
+			font-size 19px
+			padding 0 45px 0 10px
+			width 100%
+			&:hover
+			&:focus
+				border-color $silver
+
+// Utilidades
+.pointer
+	cursor pointer
+
+
+.comentarios
+	padding 0.5em
+
+@media all and (min-width: 720px)
+	.comentarios
+		.formulario
+			input[type="text"]
+			input[type="email"]
+				display inline-block
+				width 49.5%
+			textarea
+				width 99.5%
+
+// Mensajes de error y envío
+// Mensajes de correo
+.respuesta
+	&--ok
+		background rgba($esmeralda, 0.25)
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#8000ff00', endColorstr='#8000ff00',GradientType=1 )")
+		border 2px solid $esmeralda
+		color $esmeralda
+		display inline-block
+		margin 0.5em auto
+		padding 0.5em
+
+	&--mal
+		background rgba($ladrillo, 0.25)
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ff0000', endColorstr='#80ff0000',GradientType=1 )")
+		border 2px solid $ladrillo
+		color $ladrillo
+		display inline-block
+		margin 0.5em auto
+		padding 0.5em
+		position relative
+
+
+	&--error
+		background rgba($amarillo, 0.25)
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#80FFFF00', endColorstr='#80FFFF00',GradientType=1 )")
+		border 2px solid $amarillo
+		display inline-block
+		margin 0.5em auto
+		padding 0.5em

@@ -1,0 +1,129 @@
+/* Etiquetas y selectores */
+a
+{
+	color: #5E8DB2;
+}
+a:link, a:visited
+{
+	color: #5E8DB2;
+	text-decoration: none;
+}
+a:active
+{
+	color: #B24946;
+}
+a:hover, a:focus
+{
+	color: #FFC6C4;
+	text-decoration: underline;
+}
+body, html
+{
+	background-attachment: fixed;
+	background-color: #444444;
+	background-image: url("../img/body-background.jpg");
+	background-repeat: repeat;
+	background-position: top left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body, html, table, td
+{
+	color: #666666;
+	font-family: "Bookman Old Style", Georgia, Garamond, serif;
+	font-size: 18px;
+	line-height: 150%;
+}
+h1, h2, h3, h4, h5, h6, table th
+{
+	font-family: "Trebuchet MS", Verdana, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+}
+hr
+{
+	text-align: center;
+	color: #615C36;
+	width: 95%;
+}
+table
+{
+	border-collapse: collapse;
+}
+table td
+{
+	padding: 8px;
+}
+/* Clases para formato de tablas y párrafos */
+.destacado
+{
+	color: #E47F39;
+	text-transform: uppercase;
+}
+.derecha
+{
+	text-align: right;
+}
+.izquierda
+{
+	text-align: left;
+}
+.centro
+{
+	text-align: center;
+}
+
+/*Los identificadores*/
+#content
+{
+	background: #ffffff;
+}
+#footer
+{
+	height: 180px;
+	max-width: 800px;
+}
+#footer-bottom
+{
+	height: 180px;
+	width: 100%;
+}
+#footer-bottom tr td a
+{
+	display: inline-block;
+	border-left: 1px solid #666666;
+	padding-left: 8px;
+	padding-right: 6px;
+	margin: 0;
+}
+#footer-bottom tr td a:first-child
+{
+	border: none;
+}
+#header
+{
+	height: 180px;
+	max-width: 800px;
+}
+#header-logo
+{
+	border: 1px solid gray;
+	width: 100%;
+}
+#logo
+{
+	border: 1px solid red;
+	width: 76px;
+}
+#main
+{
+	margin: auto 0;
+	max-width: 800px;
+}
+#wrapper
+{
+	margin: 16px auto 0 auto;
+	max-width: 800px;
+	min-width: 280px;
+}

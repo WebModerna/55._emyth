@@ -1,0 +1,68 @@
+/*
+Elementos que incluyen un post
+*/
+
+.elementos_post
+	color $silver
+	display inine-block
+	margin 0
+	padding 0
+
+	li
+		display inline-block
+		padding 0.5em
+		
+		a
+			color inherit
+			&:hover
+				color $google
+		span
+			display inline-block
+		
+		[class^="icon-"], [class*=" icon-"]
+			margin-right 0.5em
+
+	&.inline
+		border-bottom 1px solid $silver
+		border-top none
+		
+
+// Estilos personalizados para la sección de comentarios
+.comment
+	p
+		padding 0.5em
+		
+.comment-author
+	background $nube
+	padding 0.5em
+	.avatar
+		border 2px solid $white
+		border-radius 50%
+		width 32px
+	
+.comment-meta
+	color $silver
+	padding 0.5em
+	a
+		color $silver
+
+.comment-meta:before
+	content "\f068"
+	font-family 'icon'
+	
+.commentlist
+	margin-left 0
+	padding-left 0
+	li
+		style-list none
+		
+.commentlist li ul li
+	list-style none
+	margin-right 0.5em
+	
+.fn
+.says
+	display inline-block
+	margin-left 0.5em	
+	vertical-align top
+	//  Arroba y Numeral - Ale Lacroix

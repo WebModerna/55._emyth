@@ -1,0 +1,88 @@
+/* PARA IE8 */
+
+/* Las imágenes con enlaces */
+.wp-caption a:hover:after,
+.wp-caption a:focus:after
+{
+	background: url("../img/fancybox_overlay.png");
+}
+
+
+@media all and (min-width: 500px) {
+	/* El Team */
+	.team .grupo.total
+	{
+		display: table;
+	}
+	.team .grupo.total .team--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+
+	/* El Blog */
+	.blog .grupo.total
+	{
+		display: table;
+	}
+	.blog .grupo.total .blog--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 700px) {
+	/* El Blog */
+	.blog .grupo.total .blog--item
+	{
+		width: 48%;
+	}
+
+	/* El Team */
+	.team .grupo.total .team--item
+	{
+		width: 24%;
+	}
+}
+
+/* El formulario */
+@media all and (min-width: 800px) {
+	.contenido--item-single--content form fieldset
+	{
+		display: inline-block;
+		margin: 0 1%;
+		vertical-align: top;
+		width: 47.5%;
+	}
+}
+
+/* El formulario de Busquedas */
+.form--search--input.gradient
+{
+	padding-bottom: 0 !important;
+	padding-top: 0.5em !important;
+}
+
+
+/* Servicios */
+.servicios--articulo.nth-child-odd
+{
+	background: #FEFFC2;
+}
+.servicios--articulo.nth-child-odd .servicios--articulo-content
+{
+	float: left;
+}
+.servicios--articulo.nth-child-odd .servicios--articulo-img
+{
+	float: right;
+}
+
+/* Tablas */
+table tbody tr.nth-child-odd
+{
+	background: #bdc3c7;
+}

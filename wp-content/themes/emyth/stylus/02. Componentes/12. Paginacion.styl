@@ -1,0 +1,137 @@
+// Paginación
+.pagination
+	padding 0.3em
+	ul
+		color $gris
+		font-family $baseHeadingFont
+		margin 0.5em 0
+		list-style none
+		padding 0
+		display inline-block
+
+		li
+			border 1px solid $silver
+			display inline-block
+			line-height 1.5
+			margin-bottom 0
+			margin-right 0
+			margin-top 0
+			padding 0
+			vertical-align top
+			&:hover
+			&:focus
+			&:active
+				background $nube
+
+			a
+				display block
+				margin 0
+				padding 0.2em 0.6em
+				text-decoration none
+				&:hover
+				&:focus
+				&:active
+					color $azul_claro
+		li + li
+			border-left none
+
+		.current
+			background $color_5
+			color $blanco_puro
+			padding 0.2em 0.6em
+			&:hover
+			&:focus
+			&:active
+				background $color_5
+				cursor none
+
+		.first-child
+			border-radius 0.25em 0 0 0.25em
+
+		.last-child
+			border-radius 0 0.25em 0.25em 0
+
+		.pagination--leyenda
+			padding 0.2em 0.6em
+			&:hover
+			&:focus
+			&:active
+				background none
+	/*&--atras
+	&--primero
+	&--siguiente
+	&--ultimo
+		padding 0.2em 0.6em*/
+
+
+// Navegación de post
+.enlaces__navegacion
+	border 1px solid $nube
+	border-radius 0.25em
+	display block
+	display table
+	margin 1em auto
+	width 100%
+	div
+		text-align center
+		a
+			display block
+			height 100%
+			margin 1px 0 0 0
+			padding 0.5em 1em
+	div + div
+		border-top 1px solid $nube
+
+	.prev
+		// a
+		padding-left 0.5em
+		position relative
+		&:before
+			content ""
+			display inline-block
+			float left
+			left 0.5em
+			margin-right 0.5em
+			position absolute
+			transition all 0.1s ease-in-out
+			top 45%
+			triangle(0.5em, 0.5em, 'left', $color_9)
+
+	.next
+		padding-right 0.5em
+		position relative
+		&:after
+			content ""
+			display inline-block
+			float right
+			margin-left 0.5em
+			position absolute
+			right 0.5em
+			top 45%
+			transition all 0.1s ease-in-out
+			triangle(0.5em, 0.5em, 'right', $color_9)
+
+	.next, .prev
+		&:hover
+		&:focus
+			&:after
+				border-color transparent transparent transparent $color_7
+			&:before
+				border-color transparent $color_7 transparent transparent
+
+
+// Cuando se agranda la pantalla
+@media all and (min-width:480px)
+	.enlaces__navegacion
+		div
+			display inline-block
+			display table-cell
+			vertical-align top
+			width 49.9%
+		div + div
+			border-left 1px solid $nube
+			border-top none
+		.next
+			text-align right
+		.prev
+			text-align left

@@ -1,0 +1,152 @@
+// Formularios lo más completo que se pueda.
+
+fieldset
+	border 0
+	margin 0 0 0.5em 0
+	padding 0
+
+form
+	margin-bottom 1em
+	text-align left
+	width 100%
+
+
+legend
+	display inline-block
+
+input[type="date"]
+input[type="email"]
+input[type="number"]
+input[type="tel"]
+input[type="text"]
+input[type="url"]
+input[type="search"]
+textarea
+select
+	background radial-gradient(ellipse at center, rgba(0,0,0,0) 0%,rgba(0,0,0,0.15) 100%)
+	filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#2b000000',GradientType=1 )")
+	border 1px solid $gris
+	border-radius 0.25em
+	color $negro_puro
+	display block
+	height 3em
+	line-height 1.5em
+	margin-bottom 1em
+	padding 0.25em 0.5em
+	*overflow visible
+	outline none
+	transition all 0.1s ease-in-out
+	vertical-align middle
+	width 100%
+	&:hover
+		border-color $color_8
+		box-shadow 0px 0px 10px 2px $color_8
+	&:focus
+		border-color $color_1
+		box-shadow 0px 0px 10px 2px $color_1
+		outline none
+
+
+textarea
+	min-height 180px
+	resize none
+
+$placeholder =
+	color $gris_fuerte
+
+placeholder("", $placeholder)
+
+
+.captcha
+	legend
+		display block
+	&--imagen
+	&--input
+		display inline-block
+		vertical-align middle
+	&--imagen
+		background $blanco_puro
+		box-shadow 0px 0px 10px $gris inset
+		border 1px solid $gris
+		border-radius 0.25em
+		margin-bottom 1em
+		margin-left 1em
+		padding 0.35em
+		width auto
+	&--input
+		height auto
+		width 90px
+
+input[type="text"].captcha--input
+	display inline-block
+	height auto
+	vertical-align middle
+	width 90px
+
+label > input[type="radio"]
+	margin-right 0.5em
+
+// Search Formularios
+.form
+	&--search
+		margin-bottom 0
+		&--caja
+			border 1px solid $silver
+			border-radius 0.25em
+			box-sizing()
+			display block
+			margin-bottom 0
+			position relative
+
+		&--boton
+		&--input
+			border-color $silver !important
+			display inline-block
+			height 40px
+			min-height 40px
+			max-height 40px
+			line-height 100%
+			margin 0 !important
+			vertical-align middle
+		&--boton
+			background $blanco
+			border-radius 0 0.25em 0.25em 0
+			border-top none
+			border-bottom none
+			border-right none
+			color $silver
+			height 41px
+			max-height 40px
+			max-width 40px
+			min-height 40px
+			min-width 40px
+			padding 0
+			position absolute
+			right 0
+			top 0
+			width 40px
+			img
+				display inline-block
+				margin 0
+				padding 0
+				vertical-align middle
+				width 40px
+			&:before
+				text-align left
+			&:hover
+			&:focus
+				background $blanco_puro
+
+		&--input
+			border none !important
+			background none
+			font-size 19px
+			padding 0 45px 0 10px
+			width 100%
+			&:hover
+			&:focus
+				border-color $silver
+
+// Utilidades
+.pointer
+	cursor pointer

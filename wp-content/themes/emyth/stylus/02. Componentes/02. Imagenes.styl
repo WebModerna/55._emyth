@@ -1,0 +1,293 @@
+// Imágenes en general y de wordpress
+// figure
+	//border 1px solid $silver
+	// display inline-block
+	// border-radius 0.25em
+	// padding 0.2em
+img
+	height auto
+	max-width 100%
+	vertical-align top
+
+iframe
+	border none
+	// frameborder none
+	// height auto
+	// min-height 300px
+	// width 100%
+
+// Alineaciones de las cajas y las imágenes
+@media all and (min-width: 480px)
+	.aligncenter
+		display block
+		margin 0.5em auto
+		text-align center
+	.alignleft, .alignright
+		display inline
+		*display inline /*Target IE7 and bellow*/
+		_display inline /*Target IE6 and bellow*/
+	.alignleft
+		float left
+		margin-bottom 0.1em
+		margin-right 1em
+		margin-top 0.6em
+	.alignnone
+		display block
+		margin 1em 0
+	.alignright
+		float right
+		margin-bottom 0.1em
+		margin-left 1em
+		margin-top 0.6em
+
+@media all and (max-width: 320px)
+	.size-medium
+		.alignright
+			margin-left 0
+		.alignleft
+			margin-right 0
+
+@media all and (max-width: 480px)
+	iframe
+		height auto
+		min-height 300px
+		width 100%
+
+
+// Clases de contenedores de imágenes en wordpress
+.wp-caption
+	border 1px solid $silver_claro
+	border-radius 3px
+	box-shadow 0px 0px 5px $blanco inset
+	overflow hidden
+	padding 0
+	margin-bottom 0.5em
+	text-align center
+	*
+		&:first-letter
+				text-transform uppercase
+	a
+		display block
+		position relative
+		overflow hidden
+		text-decoration none
+		transition_comun()
+
+		&:before
+			background-repeat no-repeat
+			background-position 50% 50%
+			content ""
+			display block
+			height 100%
+			opacity 0
+			position absolute
+			transform(scale(2))
+			transition_comun()
+			width 100%
+			z-index 1
+
+		&:after
+			content ""
+			display block
+			height 100%
+			left 0
+			position absolute
+			top 0
+			transition 0.1s all ease-in-out
+			width 100%
+
+		&:hover
+		&:focus
+			&:before
+				background-image url("../img/enlace_64.png")
+				opacity 1
+				transform(scale(1))
+
+			&:after
+				background-color rgba($negro_puro, 0.5)
+
+	&.aligncenter
+	&.alignnone
+		display block
+
+	&-text
+		color $silver
+		font-style italic
+		font-size 0.9em
+		margin 0
+		padding 2% 1%
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-ms-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 240dpi)
+	.wp-caption	a:hover:before
+	.wp-caption	a:focus:before
+		background-image url("../img/enlace_128.png")
+
+.text-align-left
+	text-align left
+.text-align-right
+	text-align right
+.text-align-center
+	text-align center
+.text-align-justify
+	text-align justify
+
+// Tamaños de las imágenes por defecto en las insertadas
+.size-thumbnail
+	width 110px
+
+.size-medium
+	max-width 310px
+	img
+		display block
+		width 100%
+
+.size-large
+	height auto
+	max-width 800px
+	width 100%
+
+.size-full
+	height auto
+	max-width 100%
+
+
+// Imágenes fluidas para los posts, comentarios y widgets
+.comment-author
+	img
+		width 32px
+
+.entry-content
+.comment-content
+.widget
+	img
+		max-width 100%
+
+.entry-content
+	img.wp-smiley
+		border none
+		margin-bottom 0
+		margin-top 0
+		padding 0
+
+.size-large
+.size-full
+	width 100% !important
+
+@media all and (max-width: 340px)
+	.size-medium
+		width 100% !important
+
+	.size-thumbnail
+		padding 3px
+
+
+@media all and (min-width: 340px)
+	.wp-caption
+		padding 5px
+
+/*
+@media all and (max-width: 640px)
+	.wp-caption
+		max-width 100% !important
+		width 100% !important
+		display inline-block
+@media all and (min-width: 640px)
+	.wp-caption
+		padding 5px
+	.aligncenter
+		display inline-block !important
+		margin-left calc((100% - 610px)/2)
+		margin-left -o-calc((100% - 610px)/2)
+		margin-left -ms-calc((100% - 610px)/2)
+		margin-left -moz-calc((100% - 610px)/2)
+		margin-left -webkit-calc((100% - 610px)/2)
+		width auto !important
+
+@media all and (min-width: 1000px)
+	.aligncenter
+		max-width 80%
+*/
+/*
+@@@@@@@@@@@@@@@@@@@@@@@@ Tamaños "thumbnail" 150px x 150px
+
+================================ Alineaciones en wordpress
+1. Centrada:
+<div class="wp-caption aligncenter" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+2. Izquierda
+<div class="wp-caption alignleft" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+3. Derecha
+<div class="wp-caption alignright" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+4. Ninguna
+<div class="wp-caption alignnone" style="width: 160px">
+	<img src="..." />
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+================================== Con adjuntos
+1. Centrada:
+<div class="wp-caption aligncenter" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+2. Izquierda
+<div class="wp-caption alignleft" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+3. Derecha
+<div class="wp-caption alignright" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+4. Ninguna
+<div class="wp-caption alignnone" style="width: 160px">
+	<a rel="attachment" href="#">
+		<img src="..." />
+	</a>
+	<p class="wp-caption-text">Caption de ejemplo</p>
+</div>
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@ Tamaños "medium" 350px de ancho
+idem pero con el style="width: 360px"
+Siempre 10px más.
+
+*/
+
+
+
+/*
+Tamaños de las imágenes
+Full: total
+Large: 1600px de ancho y se ve como de 800px
+Middle: 800px de ancho y se ve como de 350px
+Small: 300px de ancho/alto y se como de 150px
+Hay otras imágenes para propósitos especiales pero no vienen a la cuestión acá.
+*/

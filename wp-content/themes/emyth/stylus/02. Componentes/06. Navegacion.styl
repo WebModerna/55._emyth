@@ -1,0 +1,147 @@
+// Menú de Navegación
+
+.navegacion
+.menu
+	ul
+	&--listado
+		// display none
+		display block
+		list-style none
+		margin 0
+		overflow hidden
+		padding 0
+		transition_comun()
+		// width 100%
+		li
+			position relative
+			a
+				color $gris
+				display block
+				font-family $baseHeadingFont
+				font-size 0.9em
+				padding 0.7em 1em
+				position relative
+				text-decoration none
+				transition_comun()
+				&:hover
+				&:focus
+					background $gris_fuerte
+					color $negro_puro
+		li + li
+			border-top 1px solid $gris
+
+		&-abrir
+			max-height 30em
+			visibility visible
+
+		&-cerrar
+			max-height 0
+			visibility hidden
+	ul
+	&--listado
+		.current-menu-item
+		.current_page_item
+			a
+				background $gris_fuerte
+				color $nube
+			.sub-menu
+				a
+					background none
+	.sub-menu
+		padding-left 2em
+		// margin-right -2em
+		// width 100%
+		display block
+		li
+			display block
+			border-left 1px solid $gris
+			a
+				&:hover
+				&:focus
+					background $gris_fuerte
+
+		li:first-child
+			border-top 1px solid $gris
+		.current-menu-item
+		.current_page_item
+			a
+				background $gris_fuerte
+				color $nube
+	ul
+		li
+			a + .sub-menu:before
+				content ""
+				triangle( 10px, 10px, 'bottom', $gris )
+				display inline-block
+				position absolute
+				right 1em
+				top 1em
+
+@media only screen and (min-width: 900px)
+	.navegacion
+	.menu
+		float right
+		ul
+		&--listado
+			display table
+			width auto
+			li
+				display table-cell
+				position relative
+				a
+					&:hover
+					&:focus
+						background none
+						color $gris
+			li:before
+				background transparent
+				bottom -3em
+				content ""
+				height 20%
+				left 0
+				opacity 0
+				position absolute
+				transition_comun()
+				width 100%
+			li:hover:before
+			li:focus:before
+				background $silver
+				bottom 0
+				opacity 1
+			.current_page_item
+			.current-menu-item
+				a
+					background none
+			.current_page_item
+			.current-menu-item
+				&:before
+					background $negro
+					bottom 0
+					opacity 1
+			li + li
+				border-top none
+			&-cerrar
+				max-height auto
+				visibility visible
+		.sub-menu
+			li
+				display none
+
+		ul li a + .sub-menu:before
+			right 0
+			top 1.2em
+
+	.navegacion
+		ul
+			.sub-menu
+				background $negro url("../img/body-background.jpg") fixed
+				li:before
+					border none
+					content ""
+		ul
+			li
+				&:hover
+					.sub-menu
+						position absolute
+						li
+							display block

@@ -1,0 +1,38 @@
+.gotop
+	background $NaranjaLadrillo
+	background rgba($NaranjaLadrillo, 0.5)
+	border-radius 0.2em
+	bottom 0.5em
+	opacity 0.5
+	padding 0.3em 0.5em
+	position fixed
+	right 0.5em
+	transition all 0.2s ease
+	z-index 10
+	&:before
+		border 1em solid transparent
+		border-bottom-color $white
+		border-bottom-color rgba($white, 0.5)
+		content ""
+		display block
+		position relative
+		top -0.7em
+
+	&-mostrar
+		opacity 0.5
+
+	&-ocultar
+		opacity 0
+
+	&:hover
+		background $google
+		opacity 1 !important
+		&:before
+			border-bottom-color $white
+
+
+// Para tablets y demás. Es para que los teléfonos muestre el botón sí o sí.
+@media only screen and (min-width: 20em)
+	.gotop
+		&-ocultar
+			bottom -5em

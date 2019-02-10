@@ -1,0 +1,160 @@
+// Sidebar
+.sidebar
+	padding 0 1em 1em 1em
+	iframe
+		height auto
+		min-height 300px
+		width 100%
+
+.widget
+	&--box + &--box
+		margin 1em 0
+	&--box
+		text-align left
+		&--content
+			// position relative
+			figure
+				border 1px solid $blanco
+				border-radius 0.25em
+				margin 0
+				padding 5px
+				figcaption
+					background $blanco
+					color $gris_fuerte
+					font-style italic
+					padding 2%
+				img
+					display block
+					width 100%
+		&--title
+			margin-bottom 1em
+			*
+				border-bottom 4px solid $color_8
+		ul
+			list-style none
+			margin-left 0
+			padding-left 0
+			padding 0
+			li
+				padding 0.3em 0
+				a
+					display inline-block
+
+				.post-date
+					color $gris_fuerte
+					display block
+					font-size 0.8em
+					font-style italic
+					&:before
+						content "\f068"
+						font-family "icono"
+						font-style normal
+						padding-right 1em
+
+			li + li
+				border-top 1px dotted $silver
+
+		.cat-item
+			background $color_9
+			color $blanco_puro
+			display block
+			padding 0
+			position relative
+			transition_comun()
+			a
+				color $blanco_puro
+				display block
+				padding 0.3em 1em
+				text-decoration none
+				&:after
+					content "+"
+					color $blanco_puro
+					// font-family monospace
+					float right
+					font-size 1.2em
+					line-height 100%
+					font-weight bold
+					transition_comun()
+				&:hover
+				&:focus
+					&:after
+						transform(rotate(180deg))
+			&:hover
+			&:focus
+				background $color_8
+
+		.current-cat
+			background $color_8
+			a
+				&:after
+					content "-"
+			&:hover
+			&:focus
+				background $color_8
+
+
+// Sidebar del footer
+.footer
+	.sidebar
+		padding 0 0 1em 0
+		.widget--box
+			text-align left
+			ul
+				li
+					border-bottom 1px solid $negro_puro
+					border-top 1px solid $negro
+					a
+						text-decoration none
+				.first-child
+					border-top none
+				.last-child
+					border-bottom none
+			&--content
+				position relative
+				blockquote
+					background none
+					border none
+					margin 0
+					padding-right 0.2em
+					cite
+						text-align left
+
+				figure
+					background $blanco
+					margin-left auto
+					margin-right 0
+					width 100px
+			&--borde_inferior
+				border-bottom 1px solid $negro
+				box-shadow 0px -1px 0px 0px $negro_puro inset
+
+			&--title
+				*
+					border-bottom 4px solid $negro
+
+@media all and (min-width: 720px)
+	.sidebar
+		.widget
+			display inline-block
+			text-align left
+			vertical-align top
+
+	.footer
+		.sidebar
+			display block
+			.widget--box
+				display inline-block
+				margin-top 0
+				padding 0 0.5em
+				vertical-align top
+				width 49%
+
+@media all and (min-width: 1000px)
+	.sidebar
+		display table-cell
+		min-width 320px
+		vertical-align top
+	.footer
+		.sidebar
+			.widget--box
+				width 24.5%

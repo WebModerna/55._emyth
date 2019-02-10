@@ -1,0 +1,52 @@
+/*
+ * Funciones comunes y muy usuadas
+ */
+
+transition_comun()
+	transition all 0.3s ease-in-out
+
+box-shadow_lindo()
+	box-shadow 0px 1px 1px 0px rgba($blanco_puro, 0.5) inset, 0px -15px 15px 0px rgba($negro_puro, 0.25) inset
+	-o-box-shadow 0px 1px 1px 0px rgba($blanco_puro, 0.5) inset, 0px -15px 15px 0px rgba($negro_puro, 0.25) inset
+	-ms-box-shadow 0px 1px 1px 0px rgba($blanco_puro, 0.5) inset, 0px -15px 15px 0px rgba($negro_puro, 0.25) inset
+	-moz-box-shadow 0px 1px 1px 0px rgba($blanco_puro, 0.5) inset, 0px -15px 15px 0px rgba($negro_puro, 0.25) inset
+
+text-shadow_lindo()
+	text-shadow 0px -1px 0px rgba($negro_puro, 0.5)
+	-o-text-shadow 0px -1px 0px rgba($negro_puro, 0.5)
+	-ms-text-shadow 0px -1px 0px rgba($negro_puro, 0.5)
+	-moz-text-shadow 0px -1px 0px rgba($negro_puro, 0.5)
+	-webkit-text-shadow 0px -1px 0px rgba($negro_puro, 0.5)
+
+background-size()
+	background-size arguments
+	-o-background-size arguments
+	-ms-background-size arguments
+	-moz-background-size arguments
+	-webkit-background-size arguments
+	// -ms-behavior: url("../js/backgroundsize.min.htc")
+
+white-space_pre-wrap()
+	white-space pre-wrap
+	white-space -o-pre-wrap
+	white-space -pre-wrap
+	white-space -moz-pre-wrap
+	white-space -webkit-pre-wrap
+
+/**
+background-size_ie()
+	filter "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="arguments", sizingMethod='scale')"
+	-ms-filter "progid:DXImageTransform.Microsoft.AlphaImageLoader(src="arguments", sizingMethod='scale')"
+ * Usage:
+ *
+ * $placeholder =
+ *   color red
+ *   background-color gray
+ *
+ * placeholder(input, $placeholder)
+ */
+placeholder( target, value )
+	for prefix, i in '::-webkit-input-placeholder' '::-moz-placeholder' ':-moz-placeholder' ':-ms-input-placeholder' '::-ms-input-placeholder' '::placeholder'
+		{ target }{ prefix } {
+			{ value }
+	}

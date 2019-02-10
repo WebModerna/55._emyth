@@ -1,0 +1,26 @@
+// Contenido
+.contenido--item-single
+	padding 0.5em
+	&-figure
+		margin-bottom 1em
+		img
+			width 100%
+
+@media all and (min-width: 800px)
+	.contenido
+		display table-cell
+		padding 0 1em 1em 0.5em
+		min-width 100%
+		vertical-align top
+
+@media all and (min-width: 960px)
+	.contenido
+		&--item
+			display inline-block
+			vertical-align top
+			width 49.5%
+		&--item-single
+			display inline-block
+			vertical-align top
+			&-figure
+				max-width 600px

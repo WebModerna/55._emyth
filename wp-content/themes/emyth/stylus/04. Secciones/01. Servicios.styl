@@ -1,0 +1,40 @@
+/*
+ * Servicios
+ */
+.servicios
+	background $nube url("../img/body-background.jpg")
+	.heading
+		background $color_8
+		color $blanco
+		text-shadow_lindo()
+	&--articulo
+		overflow hidden
+
+		&-content
+			font-size 1.5em
+			padding 1em
+
+		&-img
+			display block
+			margin 0
+			padding 0
+			img
+				display block
+
+
+@media all and (min-width: 720px)
+	.servicios
+		&--articulo
+			&-content
+				float right
+				width 50%
+			&-img
+				float left
+				width 50%
+
+		&--articulo:nth-child(even)
+			background $color_6
+			.servicios--articulo-content
+				float left
+			.servicios--articulo-img
+				float right

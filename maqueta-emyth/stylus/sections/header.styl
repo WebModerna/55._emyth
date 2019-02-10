@@ -1,0 +1,67 @@
+// El encabezado principal de la web
+.header
+	// background $white
+	// background #FAF6EB
+	box-shadow 5px 0px 10px $black
+	box-sizing border-box
+	
+
+.header__h1
+	display inline-block
+	max-width 100px
+	vertical-align middle
+	h1
+	.h1
+		color $NaranjaLadrillo
+		font-size 0.7em
+		padding 0
+		margin 0
+		span
+			display inherit
+			color $VerdeClaro
+
+@media all and (min-width:30em)
+	.header__h1
+		max-width none
+		h1
+		.h1
+			font-size 0.9em
+
+
+@media all and (min-width:56.8em)
+	.header
+		overflow hidden
+
+@media all and (min-width:64em)	
+	.header__h1
+		h1
+		.h1
+			font-size 1em
+		
+	
+
+// El logotipo
+/*
+Siempre tiene la forma siguiente
+<div class="logo">
+	<a href="enlace">
+		<img src="img/logo.png" alt="título" />
+	</a>
+</div>
+*/
+.logo
+	// background $white
+	border-radius 50%
+	padding 0.3em
+	display inline-block
+	margin 0.5em
+	vertical-align middle
+	img
+		display block
+		width 50px
+	a
+		display block
+		transition_comun()
+		&:hover
+			opacity 0.6
+			transform scale(1.05)

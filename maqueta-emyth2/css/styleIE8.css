@@ -1,0 +1,114 @@
+/* PARA IE9 */
+@media all and (min-width: 500px) {
+	/* El Team */
+	.team .grupo.total
+	{
+		display: table;
+	}
+	.team .grupo.total .team--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 48%;
+	}
+
+	/* El Blog */
+	.blog .grupo.total
+	{
+		display: table;
+	}
+	.blog .grupo.total .blog--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 700px) {
+	/* El Blog */
+	.blog .grupo.total .blog--item
+	{
+		width: 48%;
+	}
+
+	/* El Team */
+	.team .grupo.total .team--item
+	{
+		width: 24%;
+	}
+
+
+	/* El formulario */
+	.contacto form .grupo.total
+	{
+		display: block;
+		margin-bottom: 3em;
+	}
+	.contacto form .grupo.total .caja.tablet-50
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 49.5%;
+	}
+}
+
+/* El formulario de Busquedas */
+.form--search--input.gradient
+{
+	padding-bottom: 0 !important;
+	padding-top: 0.5em !important;
+}
+
+
+/* Barra de navegación */
+@media all and (min-width: 768px) {
+	.navegacion .navegacion--listado
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.navegacion .navegacion--listado li
+	{
+		display: inline-block;
+	}
+}
+.navegacion .navegacion--listado li a:hover
+{
+	background: #ddd;
+}
+.navegacion .navegacion--listado li.current_menu_item a:hover,
+.navegacion .navegacion--listado li.current_page_item a:hover
+{
+	background: #666;
+}
+
+/* Ir Arriba */
+.gotop
+{
+	background: 0;
+	border-style: solid;
+	border-width: 0 0.75em 1.5em 0.75em;
+	border-color: transparent transparent #666 transparent;
+}
+
+/* Servicios */
+.servicios--articulo.nth-child-odd
+{
+	background: #FEFFC2;
+}
+.servicios--articulo.nth-child-odd .servicios--articulo-content
+{
+	float: left;
+}
+.servicios--articulo.nth-child-odd .servicios--articulo-img
+{
+	float: right;
+}
+
+/* Tablas */
+table tbody tr.nth-child-odd
+{
+	background: #bdc3c7;
+}

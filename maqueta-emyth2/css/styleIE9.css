@@ -1,0 +1,67 @@
+/* PARA IE9 */
+@media all and (min-width: 500px) {
+	/* El Team */
+	.team .grupo.total
+	{
+		display: table;
+	}
+	.team .grupo.total .team--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 49%;
+	}
+
+	/* El Blog */
+	.blog .grupo.total
+	{
+		display: table;
+	}
+	.blog .grupo.total .blog--item
+	{
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 700px) {
+	/* El Blog */
+	.blog .grupo.total .blog--item
+	{
+		width: 49%;
+	}
+
+	/* El Team */
+	.team .grupo.total .team--item
+	{
+		width: 24.5%;
+	}
+
+
+	/* El formulario */
+	.contacto form .grupo.total
+	{
+		display: table;
+		margin-bottom: 3em;
+	}
+	.contacto form .grupo.total .caja.tablet-50
+	{
+		display: table-cell;
+		vertical-align: top;
+		width: 49%;
+	}
+}
+
+/* Barra de navegación */
+@media all and (min-width: 768px) {
+	.navegacion .navegacion--listado
+	{
+		display: table;
+		width: 100%;
+	}
+	.navegacion .navegacion--listado li
+	{
+		display: table-cell;
+	}
+}
